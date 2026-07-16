@@ -18,7 +18,7 @@ The Wix site contains five public pages:
 
 It provides useful source material for the new website, including the Trust's purpose, recent investment in the field, event descriptions, contact details and current social profiles.
 
-The content should be preserved and rewritten rather than copied verbatim. Several statements require confirmation, and the current structure omits Santa Special, detailed field information, accessibility, governance, privacy and volunteer guidance.
+The content should be preserved and rewritten rather than copied verbatim. The Wix site is no longer maintained as the current public source, so its event information may be out of date. Several statements require confirmation, and the current structure omits Santa Special, detailed field information, accessibility, governance, privacy and volunteer guidance.
 
 ---
 
@@ -34,7 +34,7 @@ The content should be preserved and rewritten rather than copied verbatim. Sever
 
 The `copy-of` Wix paths are not suitable for the new website. The new URLs should be descriptive and permanent.
 
-Because the Wix site uses a `wixsite.com` hostname rather than the planned Trust domain, redirects from these exact old URLs may not be controllable after leaving Wix. During transition, the Wix site should prominently link to `darringtonvillagefield.org.uk` if Wix cannot provide redirects.
+Because the Wix site uses a `wixsite.com` hostname and is not being used as the Trust's current public site, it should be treated as a content reference rather than an authoritative source for 2026 information. Redirects from its exact old URLs may not be controllable after leaving Wix. If appropriate, the Wix site may display a link to `darringtonvillagefield.org.uk` after launch.
 
 ---
 
@@ -213,7 +213,7 @@ Preserve the visitor-friendly route summary, but build the page around verified 
 - It says the 2026 date and further details will be announced in the coming weeks.
 - Gate and refreshment proceeds are described as funding the following year's fireworks.
 
-### Conflict with prototype
+### Date confirmation and Wix discrepancy
 
 The prototype states:
 
@@ -221,13 +221,16 @@ The prototype states:
 - gates at 5:00pm; and
 - several practical and safety arrangements.
 
-The live Wix page does not yet confirm that date or those arrangements. Therefore, all prototype event facts remain unconfirmed until the event organiser approves them.
+Laurie confirmed on 16 July 2026 that **Saturday 7 November 2026** is the correct Bonfire Night date. The Wix page is out of date because it is not being maintained as the current public source.
+
+The prototype's 5:00pm gates time and other operational arrangements remain to be confirmed separately.
 
 ### Disposition
 
 - **Keep:** community atmosphere, fundraising cycle and 2025 retrospective.
 - **Rewrite:** promotional language.
-- **Verify:** all 2026 details.
+- **Confirmed:** Saturday 7 November 2026.
+- **Verify:** opening time and all other 2026 operational details.
 - **Add:** booking/price, timings, parking, accessibility, safety, dogs, weather, toilets and FAQ.
 
 ---
@@ -293,7 +296,7 @@ The new website needs material not present in the existing navigation:
 | Five Mile Run route summary | Keep, verify | Five Mile Run |
 | Five Mile Run rules | Reconfirm for 2026 | Five Mile Run |
 | Bonfire 2025 retrospective | Keep for history/gallery context | Bonfire Night |
-| Bonfire 2026 date | Unconfirmed | Event data/page |
+| Bonfire 2026 date | Confirmed: Saturday 7 November 2026 | Event data/page |
 | Contact emails | Verify monitoring and retain | Contact/event pages |
 | Social profiles | Retain | Header/footer/contact |
 | Edwardian Lady story | Preserve and recover full text | Feast/History |
@@ -303,7 +306,7 @@ The new website needs material not present in the existing navigation:
 ## 11. Remaining questions for the Trust
 
 1. Is Saturday 20 June 2026 formally confirmed for Feast & Fayre?
-2. Is Saturday 7 November 2026 at 5:00pm formally confirmed for Bonfire Night?
+2. Is the prototype's 5:00pm gates-opening time formally confirmed for Bonfire Night?
 3. Who currently owns and approves Five Mile Run information?
 4. Are the three published event email addresses all actively monitored?
 5. Should trustees be shown by familiar names or formal registered names?
@@ -327,5 +330,10 @@ Authority checks:
 
 - Charity Commission record: <https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/505756/full-print>
 
-The Wix site is the source for current public wording, not proof that every operational detail remains correct.
+The Wix site is a historical/current-copy reference, not proof that operational details remain correct. Trust confirmations and current event-owner information take precedence.
 
+### Confirmation log
+
+| Date | Confirmation |
+|---|---|
+| 16 July 2026 | Laurie confirmed Saturday 7 November 2026 as the correct Bonfire Night date and advised that Wix is not maintained as the current public source |

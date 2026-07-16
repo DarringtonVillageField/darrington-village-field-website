@@ -46,6 +46,7 @@ Phase 0 is in progress. The two prototype HTML files have been preserved and aud
 - Existing source-document backlog confirmed as empty.
 - Wix site confirmed accessible in Laurie's browser.
 - Planned production domain confirmed as `darringtonvillagefield.org.uk`.
+- Bonfire Night date confirmed as Saturday 7 November 2026.
 
 ### Outstanding
 
@@ -582,3 +583,4 @@ Phase 0 is complete when:
 | 16 July 2026 | Prototype files received, preserved and audited |
 | 16 July 2026 | Cloudinary cloud name and independent backup confirmed; no source-document backlog; Wix access and planned production domain confirmed |
 | 16 July 2026 | All Wix navigation pages captured and classified; content conflicts and verification questions documented |
+| 16 July 2026 | Bonfire Night date confirmed as 7 November 2026; Wix classified as an outdated reference rather than the current public source |
