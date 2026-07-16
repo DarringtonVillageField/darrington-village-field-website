@@ -43,9 +43,6 @@ Phase 0 has started but cannot yet be completed because the two prototype HTML f
 
 ### Outstanding
 
-- Obtain `index_6.html`.
-- Obtain `bonfire.html`.
-- Obtain any CSS, JavaScript, local images and fonts used by those pages.
 - Capture the existing Wix site page by page.
 - Gather source content into the editorial folder.
 - Inventory Cloudinary assets and metadata.
@@ -127,38 +124,28 @@ Documents should be copied into GitHub only when:
 
 ---
 
-## 5. Prototype-file search
+## 5. Prototype files
 
-The following named files were searched for on the Mac:
+The following named files were supplied on 16 July 2026:
 
 ```text
 index_6.html
 bonfire.html
 ```
 
-Neither file was found.
+Both are self-contained HTML prototypes with inline CSS and JavaScript and remote Google Fonts and Cloudinary media dependencies. No separate local supporting files were supplied.
 
-No associated `.html`, `.css`, `.js`, `.txt`, `.docx` or `.pdf` source files were found under:
+They have been preserved unchanged in:
 
 ```text
-/Users/laurie/villagefield
+/archive/prototypes/
 ```
 
-### Required input
+Their design and implementation findings are documented in:
 
-Laurie needs to locate or re-download:
-
-- `index_6.html`;
-- `bonfire.html`;
-- linked stylesheets;
-- linked JavaScript;
-- locally referenced images;
-- icons;
-- logos;
-- locally hosted fonts; and
-- any other page prototypes.
-
-If the pages were generated as single HTML files with embedded CSS and JavaScript, the two HTML files may be sufficient for the first review. If they reference local assets, the containing folder should be supplied intact.
+```text
+/docs/03-prototype-audit.md
+```
 
 ---
 
@@ -492,8 +479,8 @@ As material is collected, add it to this register or a later structured inventor
 | C-001 | Vision statement | Project Blueprint | 2026-07-16 | Approved by Laurie | Keep | Site-wide guidance | Not necessarily public page copy |
 | C-002 | Charity identity | Charity Commission | Current public record | Authoritative external | Verify internally | About/Governance/Footer | Charity no. 505756 |
 | C-003 | Existing Wix content | Wix website | Unknown | Existing public copy | Awaiting capture | Multiple | Full audit required |
-| C-004 | Homepage prototype | `index_6.html` | Unknown | Design prototype | Missing | Design reference | File not found |
-| C-005 | Bonfire prototype | `bonfire.html` | Unknown | Design prototype | Missing | Event design reference | File not found |
+| C-004 | Homepage prototype | `index_6.html` | Unknown | Design prototype | Preserved/reviewed | Design reference | See prototype audit |
+| C-005 | Bonfire prototype | `bonfire.html` | Unknown | Design prototype | Preserved/reviewed | Event design reference | See prototype audit |
 | C-006 | Cloudinary photographs | Cloudinary | Multiple years | Trust media library | Awaiting inventory | Galleries/pages | Permission and metadata audit needed |
 
 ---
@@ -518,30 +505,19 @@ As material is collected, add it to this register or a later structured inventor
 
 ### Laurie
 
-1. Locate `index_6.html` and `bonfire.html`.
-2. Copy their complete containing folders into:
-
-   ```text
-   /Users/laurie/villagefield/website/02-prototypes/
-   ```
-
-3. Add any existing text documents, policies, event guides and notes to the recommended subject folders, or place unsorted items in `00-inbox`.
-4. Confirm whether the Wix site opens normally in Laurie's browser.
-5. Confirm the Cloudinary cloud name, but do not provide API keys or secrets.
-6. Confirm whether an independent archive of original photographs exists.
+1. Add any existing text documents, policies, event guides and notes to the recommended subject folders, or place unsorted items in `00-inbox`.
+2. Confirm whether the Wix site opens normally in Laurie's browser.
+3. Confirm the Cloudinary cloud name, but do not provide API keys or secrets.
+4. Confirm whether an independent archive of original photographs exists.
 
 ### Codex
 
-After the files are present:
-
-1. preserve the prototypes unchanged in the repository archive;
-2. inspect their HTML, CSS, JavaScript, images and dependencies;
-3. extract the current palette, typography, layout and animation patterns;
-4. compare prototype content with captured Wix content;
-5. create the old-to-new content map;
-6. identify reusable and problematic implementation patterns;
-7. produce a design-system input report; and
-8. propose the Phase 1 repository foundation.
+1. Compare prototype content with captured Wix content.
+2. Create the old-to-new content map.
+3. Continue the Cloudinary and source-content inventory.
+4. Resolve content verification questions.
+5. Turn the prototype audit into the formal design-system specification.
+6. Propose the Phase 1 repository foundation.
 
 ---
 
@@ -567,4 +543,4 @@ Phase 0 is complete when:
 | Date | Change |
 |---|---|
 | 16 July 2026 | Initial repository, local-folder, prototype and public-source discovery recorded |
-
+| 16 July 2026 | Prototype files received, preserved and audited |
