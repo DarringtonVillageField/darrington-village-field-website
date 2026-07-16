@@ -29,7 +29,7 @@ No existing content should be treated as current merely because it appears on a 
 
 ## 2. Executive status
 
-Phase 0 has started but cannot yet be completed because the two prototype HTML files and most source content have not been supplied to the working folders.
+Phase 0 is in progress. The two prototype HTML files have been preserved and audited. The remaining work centres on capturing the Wix content, inventorying Cloudinary, and confirming current organisational and event information.
 
 ### Completed
 
@@ -40,11 +40,16 @@ Phase 0 has started but cannot yet be completed because the two prototype HTML f
 - Mac searched for the named prototype files.
 - Initial public-source research completed.
 - Initial preservation and content-gathering structure defined.
+- Prototype files received, preserved and audited.
+- Cloudinary cloud name confirmed as `gst8uxqp`.
+- Independent backup of original Cloudinary photographs confirmed.
+- Existing source-document backlog confirmed as empty.
+- Wix site confirmed accessible in Laurie's browser.
+- Planned production domain confirmed as `darringtonvillagefield.org.uk`.
 
 ### Outstanding
 
 - Capture the existing Wix site page by page.
-- Gather source content into the editorial folder.
 - Inventory Cloudinary assets and metadata.
 - Confirm official contact, trustee and charity information.
 - Identify image permissions and safeguarding records.
@@ -108,7 +113,15 @@ The local blueprint and the GitHub blueprint were compared by SHA-256 checksum a
 
 ### Finding
 
-The folder currently contains no collected source material beyond the blueprint.
+The folder currently contains the blueprint and the two supplied prototypes. Laurie confirmed on 16 July 2026 that there are no other existing documents, policies, notes or event guides awaiting collection.
+
+This is not a project blocker. Page copy and operational information will be reconstructed from:
+
+- the current Wix website;
+- verified public sources;
+- the supplied prototypes;
+- Cloudinary imagery and metadata; and
+- information confirmed directly by the Trust during page development.
 
 ### Important distinction
 
@@ -223,7 +236,9 @@ Existing Wix URL:
 
 ### Current limitation
 
-The automated review was unable to retrieve the Wix site reliably during this audit. The site therefore needs to be captured manually or supplied as an export before its content can be compared comprehensively with the new design.
+The automated review was unable to retrieve the Wix site reliably during this audit. Laurie confirmed that it opens normally in a standard browser. It therefore needs to be captured manually, or its content supplied as an export, before it can be compared comprehensively with the prototypes.
+
+The Wix site currently uses its `wixsite.com` address and has no custom domain pointing to it. The planned `darringtonvillagefield.org.uk` domain will be registered and connected as part of the new-site launch process, not the Wix preservation process.
 
 ### Capture requirements
 
@@ -272,6 +287,14 @@ Every piece of Wix content should receive one:
 ---
 
 ## 8. Cloudinary discovery
+
+Confirmed Cloudinary cloud name:
+
+```text
+gst8uxqp
+```
+
+This is the public Cloudinary environment identifier already visible in the prototype image-delivery URLs. It is not an API secret.
 
 Known folder structure supplied by Laurie:
 
@@ -332,6 +355,20 @@ Do not bulk rename, move, delete or tag photographs until:
 - a backup or independent archive is confirmed;
 - the tag vocabulary is approved; and
 - publication-permission handling is agreed.
+
+### Backup status
+
+Laurie confirmed on 16 July 2026 that the original Cloudinary photographs have an independent backup. This substantially reduces the preservation risk, but bulk changes must still wait for the inventory and tagging plan.
+
+### Inventory approach
+
+The browser-facing website will ultimately use public Cloudinary tags rather than authenticated folder searches. During Phase 0, create an inventory without exposing API credentials by using one of these methods:
+
+1. a Cloudinary Media Library export, if available in the account;
+2. folder-by-folder counts and screenshots recorded manually; or
+3. a future authenticated administrative script run locally, with credentials held outside GitHub and outside browser JavaScript.
+
+Until tags are applied, the public website cannot safely infer every asset in a folder using only the cloud name.
 
 ---
 
@@ -505,10 +542,10 @@ As material is collected, add it to this register or a later structured inventor
 
 ### Laurie
 
-1. Add any existing text documents, policies, event guides and notes to the recommended subject folders, or place unsorted items in `00-inbox`.
-2. Confirm whether the Wix site opens normally in Laurie's browser.
-3. Confirm the Cloudinary cloud name, but do not provide API keys or secrets.
-4. Confirm whether an independent archive of original photographs exists.
+1. Capture the Wix navigation, page URLs and page text, or make the pages available for a browser-assisted capture.
+2. Confirm the Trust's current contact details, charity details and trustee display preference.
+3. Record approximate Cloudinary asset counts by folder/year, or provide a safe Media Library export if available.
+4. Confirm whether existing images have captions, alternative text or publication tags.
 
 ### Codex
 
@@ -544,3 +581,4 @@ Phase 0 is complete when:
 |---|---|
 | 16 July 2026 | Initial repository, local-folder, prototype and public-source discovery recorded |
 | 16 July 2026 | Prototype files received, preserved and audited |
+| 16 July 2026 | Cloudinary cloud name and independent backup confirmed; no source-document backlog; Wix access and planned production domain confirmed |
