@@ -1,0 +1,570 @@
+# Phase 0 — Discovery and Preservation
+
+## Darrington Village Field Trust Website
+
+**Status:** In progress  
+**Started:** 16 July 2026  
+**Owner:** Darrington Village Field Trust  
+**Related document:** [Project Blueprint v1.0](01-project-blueprint.md)
+
+---
+
+## 1. Purpose
+
+Phase 0 preserves the existing work and establishes what information and assets are available before the new website architecture or design system is implemented.
+
+Its goals are to:
+
+- preserve the existing prototype pages;
+- capture the useful content and URLs of the Wix website;
+- inventory source content and public documents;
+- inventory Cloudinary folders, assets, tags and metadata;
+- distinguish verified facts from outdated or unconfirmed material;
+- identify missing content, photographs and permissions; and
+- provide a controlled handover into Phase 1.
+
+No existing content should be treated as current merely because it appears on a website or in an old document.
+
+---
+
+## 2. Executive status
+
+Phase 0 has started but cannot yet be completed because the two prototype HTML files and most source content have not been supplied to the working folders.
+
+### Completed
+
+- GitHub repository identified and connected.
+- Project Blueprint v1.0 stored in GitHub.
+- Local source-content folder inspected.
+- Repository contents inventoried.
+- Mac searched for the named prototype files.
+- Initial public-source research completed.
+- Initial preservation and content-gathering structure defined.
+
+### Outstanding
+
+- Obtain `index_6.html`.
+- Obtain `bonfire.html`.
+- Obtain any CSS, JavaScript, local images and fonts used by those pages.
+- Capture the existing Wix site page by page.
+- Gather source content into the editorial folder.
+- Inventory Cloudinary assets and metadata.
+- Confirm official contact, trustee and charity information.
+- Identify image permissions and safeguarding records.
+- Create an old-to-new URL map.
+- Complete content disposition decisions: keep, rewrite, merge, archive or discard.
+
+---
+
+## 3. Repository inventory
+
+Repository:
+
+<https://github.com/DarringtonVillageField/darrington-village-field-website>
+
+Files present at the start of Phase 0:
+
+```text
+README.md
+docs/
+└── 01-project-blueprint.md
+```
+
+### Findings
+
+- The repository contains the approved blueprint.
+- It does not yet contain website HTML, CSS, JavaScript, photographs or source content.
+- The current `README.md` contains only the repository title and a one-line description.
+- No production website structure has yet been created.
+
+### Preservation decision
+
+Do not copy unreviewed prototype files directly into the future production structure. When received, preserve them first under:
+
+```text
+archive/
+└── prototypes/
+    ├── index_6.html
+    ├── bonfire.html
+    └── supporting-assets/
+```
+
+Working versions can then be derived from the archived originals. Git history will preserve subsequent changes.
+
+---
+
+## 4. Local source-content inventory
+
+Editorial source folder supplied by Laurie:
+
+```text
+/Users/laurie/villagefield/website
+```
+
+Files present on 16 July 2026:
+
+```text
+Darrington-Village-Field-Trust-Website-Project-Blueprint-v1.0.md
+```
+
+The local blueprint and the GitHub blueprint were compared by SHA-256 checksum and are identical.
+
+### Finding
+
+The folder currently contains no collected source material beyond the blueprint.
+
+### Important distinction
+
+This local folder is a private editorial filing cabinet. Its contents do not automatically become public or enter the GitHub repository.
+
+Documents should be copied into GitHub only when:
+
+- publication is intended;
+- accuracy has been checked;
+- personal data has been reviewed;
+- copyright and image permissions are understood; and
+- the content has been rewritten or prepared for the web.
+
+---
+
+## 5. Prototype-file search
+
+The following named files were searched for on the Mac:
+
+```text
+index_6.html
+bonfire.html
+```
+
+Neither file was found.
+
+No associated `.html`, `.css`, `.js`, `.txt`, `.docx` or `.pdf` source files were found under:
+
+```text
+/Users/laurie/villagefield
+```
+
+### Required input
+
+Laurie needs to locate or re-download:
+
+- `index_6.html`;
+- `bonfire.html`;
+- linked stylesheets;
+- linked JavaScript;
+- locally referenced images;
+- icons;
+- logos;
+- locally hosted fonts; and
+- any other page prototypes.
+
+If the pages were generated as single HTML files with embedded CSS and JavaScript, the two HTML files may be sufficient for the first review. If they reference local assets, the containing folder should be supplied intact.
+
+---
+
+## 6. Recommended source-content structure
+
+Create the following folders inside:
+
+```text
+/Users/laurie/villagefield/website
+```
+
+Recommended structure:
+
+```text
+website/
+├── 00-inbox/
+├── 01-existing-website/
+│   ├── wix-page-captures/
+│   ├── wix-text/
+│   └── old-urls/
+├── 02-prototypes/
+│   ├── index-6/
+│   └── bonfire/
+├── 03-field/
+│   ├── facilities/
+│   ├── accessibility/
+│   ├── maps-and-directions/
+│   └── maintenance/
+├── 04-trust/
+│   ├── history/
+│   ├── trustees-and-committee/
+│   ├── governance/
+│   └── policies/
+├── 05-events/
+│   ├── feast-fayre/
+│   ├── five-mile-run/
+│   ├── bonfire-night/
+│   └── santa-special/
+├── 06-volunteers/
+├── 07-sponsors/
+├── 08-news/
+├── 09-contact/
+├── 10-image-permissions/
+└── 99-superseded/
+```
+
+### Filing rule
+
+When unsure where an item belongs, place it in `00-inbox`. Do not create several copies in different subject folders.
+
+Filename examples:
+
+```text
+bonfire-night-practical-information-2025.docx
+five-mile-run-race-guide-2025.pdf
+trust-history-source-unknown.txt
+playground-facilities-reviewed-2026-07-16.docx
+```
+
+Avoid filenames such as:
+
+```text
+latest.docx
+new-final-v2.docx
+information.txt
+```
+
+---
+
+## 7. Wix website capture
+
+Existing Wix URL:
+
+<https://darringtonfield.wixsite.com/darrington-village>
+
+### Current limitation
+
+The automated review was unable to retrieve the Wix site reliably during this audit. The site therefore needs to be captured manually or supplied as an export before its content can be compared comprehensively with the new design.
+
+### Capture requirements
+
+For each public Wix page, record:
+
+- page title;
+- full URL;
+- navigation label;
+- headings;
+- all visible text;
+- downloadable files;
+- images and captions;
+- contact details;
+- event dates and prices;
+- external links;
+- social links;
+- footer information;
+- material that appears out of date;
+- material worth preserving; and
+- screenshots at desktop and mobile widths.
+
+### Suggested inventory table
+
+| Old page | Old URL | Main purpose | Proposed action | New destination |
+|---|---|---|---|---|
+| Home | To capture | General introduction | Rewrite | `/` |
+| Field | To capture | Field information | Rewrite/expand | `/field/` |
+| Feast & Fayre | To capture | Event | Rewrite | `/events/feast-fayre/` |
+| Five Mile Run | To capture | Event | Rewrite | `/events/five-mile-run/` |
+| Bonfire Night | To capture | Event | Rewrite | `/events/bonfire-night/` |
+| Contact | To capture | Contact details | Verify/rewrite | `/contact/` |
+
+Add every page discovered during capture.
+
+### Content disposition labels
+
+Every piece of Wix content should receive one:
+
+- **Keep:** accurate and suitable with minor editing.
+- **Rewrite:** useful subject matter, but presentation or facts need work.
+- **Merge:** belongs within another proposed page.
+- **Archive:** historically useful but not current visitor information.
+- **Discard:** obsolete, duplicated, incorrect or valueless.
+- **Verify:** may be useful but requires an authoritative confirmation.
+
+---
+
+## 8. Cloudinary discovery
+
+Known folder structure supplied by Laurie:
+
+```text
+Home/
+├── homepage/
+├── bonfire-night/
+│   ├── 2024/
+│   └── 2025/
+├── feast-fayre/
+│   ├── 2024/
+│   ├── 2025/
+│   └── 2026/
+├── five-mile-run/
+│   ├── 2024/
+│   ├── 2025/
+│   └── 2026/
+├── santa-special/
+├── field/
+│   ├── open-space/
+│   ├── playground/
+│   └── facilities/
+├── volunteers/
+├── history/
+├── logos/
+├── sponsors/
+└── committee/
+```
+
+### Known photography gaps
+
+- Santa Special photographs for the previous year may be missing.
+- Feast & Fayre 2025 photographs may be missing or need locating.
+
+### Required Cloudinary inventory
+
+For each folder and year, record:
+
+- number of assets;
+- image/video split;
+- filenames or public IDs;
+- whether captions exist;
+- whether alternative-text metadata exists;
+- tags already applied;
+- duplicate or near-duplicate photographs;
+- obvious low-quality files;
+- likely hero candidates;
+- publication-permission status;
+- photographer credit requirements; and
+- images that should not be published.
+
+### Phase 0 rule
+
+Do not bulk rename, move, delete or tag photographs until:
+
+- the inventory has been reviewed;
+- the Cloudinary cloud name and account structure are confirmed;
+- a backup or independent archive is confirmed;
+- the tag vocabulary is approved; and
+- publication-permission handling is agreed.
+
+---
+
+## 9. Initial public-source findings
+
+The following information was found in current public sources. It is recorded for verification and must not automatically replace Trust-approved content.
+
+### Charity Commission record
+
+Authoritative source:
+
+<https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/505756/full-print>
+
+Public record observed on 16 July 2026:
+
+- Registered name: Darrington Village Field Trust.
+- Charity number: 505756.
+- Registration date: 13 January 1977.
+- Stated activity: providing and maintaining a playing field and play equipment for use by the general public in Darrington.
+- Operating area: City of Wakefield.
+- Registered address: Philips Lane, Darrington, Pontefract, WF8 3BH.
+- Public telephone: 07825 676174.
+- Public email: `darringtonvillagefield@outlook.com`.
+- Website listed by the Commission: `www.darringtonvillagefield.org`.
+- Three trustees are listed.
+- Reporting status is shown as up to date.
+
+### Verification warnings
+
+- The listed website differs from the planned `.org.uk` domain.
+- `Philips Lane` should be checked because other informal sources may use a different spelling.
+- Public telephone and email details require Trust approval before publication.
+- Trustee names and roles should be confirmed internally even when they match the public register.
+- Financial figures should be linked to the Charity Commission rather than manually repeated unless there is a clear visitor need.
+
+### Historical Five Mile Run information
+
+Older race guides and a 2025 terms document are publicly indexed:
+
+- 2018 race guide: <https://www.readkong.com/page/the-2018-darrington-5-mile-run-race-guide-6168750>
+- 2025 entry terms: <https://bookitzone.com/stephen_berry_1/NAjFFX_12779.pdf>
+
+These sources demonstrate historically useful subjects such as:
+
+- registration;
+- parking;
+- route;
+- road safety;
+- marshalling;
+- hydration;
+- results;
+- transfers;
+- bag drop;
+- age requirements;
+- photography; and
+- event contact details.
+
+They must not be used as current instructions without confirmation by the current race organiser.
+
+---
+
+## 10. Content collection checklist
+
+### Field
+
+- [ ] Exact public address and postcode.
+- [ ] Entrances.
+- [ ] Parking arrangements.
+- [ ] Public transport.
+- [ ] Opening/access arrangements.
+- [ ] Playground facilities and age guidance.
+- [ ] Open-space uses.
+- [ ] Sports/exercise facilities.
+- [ ] Toilets and when available.
+- [ ] Seating.
+- [ ] Accessibility.
+- [ ] Dogs policy.
+- [ ] Cycling policy.
+- [ ] Defibrillator information.
+- [ ] Emergency and problem-reporting information.
+- [ ] Map or plan.
+- [ ] Maintenance information.
+- [ ] Any hire/use rules.
+
+### Village Field Trust
+
+- [ ] Approved short description.
+- [ ] History.
+- [ ] Governing purpose.
+- [ ] Charity number.
+- [ ] Trustee names and roles.
+- [ ] Committee names and roles, if different.
+- [ ] Governance documents.
+- [ ] Policies.
+- [ ] Annual reports/accounts links.
+- [ ] Contact details.
+- [ ] Social media accounts.
+- [ ] Volunteer opportunities.
+- [ ] Sponsorship information.
+
+### Each event
+
+- [ ] Event owner.
+- [ ] Purpose/history.
+- [ ] Typical month/date.
+- [ ] Confirmed next date.
+- [ ] Opening and start times.
+- [ ] Admission or price.
+- [ ] Booking/ticket link.
+- [ ] Programme.
+- [ ] Location/entrance.
+- [ ] Parking.
+- [ ] Accessibility.
+- [ ] Toilets.
+- [ ] Food/drink.
+- [ ] Weather/cancellation arrangements.
+- [ ] Safety rules.
+- [ ] Dogs guidance.
+- [ ] Photography information.
+- [ ] Volunteer roles.
+- [ ] Sponsors.
+- [ ] Contact.
+- [ ] FAQs.
+- [ ] Approved photographs by year.
+
+### Legal and operational
+
+- [ ] Privacy notice source information.
+- [ ] Cookie/analytics decision.
+- [ ] Accessibility contact.
+- [ ] Photography and image-removal policy.
+- [ ] Safeguarding policy relevant to publication.
+- [ ] Copyright and image licences.
+- [ ] Contact-message retention.
+- [ ] Named content owners and reviewers.
+
+---
+
+## 11. Content register
+
+As material is collected, add it to this register or a later structured inventory.
+
+| ID | Subject | Source | Date | Authority | Status | Proposed destination | Notes |
+|---|---|---|---|---|---|---|---|
+| C-001 | Vision statement | Project Blueprint | 2026-07-16 | Approved by Laurie | Keep | Site-wide guidance | Not necessarily public page copy |
+| C-002 | Charity identity | Charity Commission | Current public record | Authoritative external | Verify internally | About/Governance/Footer | Charity no. 505756 |
+| C-003 | Existing Wix content | Wix website | Unknown | Existing public copy | Awaiting capture | Multiple | Full audit required |
+| C-004 | Homepage prototype | `index_6.html` | Unknown | Design prototype | Missing | Design reference | File not found |
+| C-005 | Bonfire prototype | `bonfire.html` | Unknown | Design prototype | Missing | Event design reference | File not found |
+| C-006 | Cloudinary photographs | Cloudinary | Multiple years | Trust media library | Awaiting inventory | Galleries/pages | Permission and metadata audit needed |
+
+---
+
+## 12. Risk register
+
+| Risk | Likelihood | Impact | Mitigation |
+|---|---|---|---|
+| Prototype files are lost | Medium | High | Locate and archive immediately |
+| Wix content disappears before capture | Medium | High | Complete screenshots/text capture early |
+| Old event information is republished as current | High | High | Require named organiser verification |
+| Images are published without adequate permission review | Medium | High | Use deliberate publication tags and safeguarding review |
+| Cloudinary bulk changes break existing references | Medium | High | Inventory and back up before renaming/moving |
+| Contact/trustee information becomes stale | Medium | Medium | Assign owner and review frequency |
+| Source folder is mistaken for public content | Low | Medium | Keep editorial and repository roles documented |
+| Several copies become conflicting “master” versions | Medium | Medium | GitHub owns approved website content; local folder owns raw sources |
+| Old Wix URLs lose visitors or search value | Medium | Medium | Build URL inventory and transition plan |
+
+---
+
+## 13. Immediate next actions
+
+### Laurie
+
+1. Locate `index_6.html` and `bonfire.html`.
+2. Copy their complete containing folders into:
+
+   ```text
+   /Users/laurie/villagefield/website/02-prototypes/
+   ```
+
+3. Add any existing text documents, policies, event guides and notes to the recommended subject folders, or place unsorted items in `00-inbox`.
+4. Confirm whether the Wix site opens normally in Laurie's browser.
+5. Confirm the Cloudinary cloud name, but do not provide API keys or secrets.
+6. Confirm whether an independent archive of original photographs exists.
+
+### Codex
+
+After the files are present:
+
+1. preserve the prototypes unchanged in the repository archive;
+2. inspect their HTML, CSS, JavaScript, images and dependencies;
+3. extract the current palette, typography, layout and animation patterns;
+4. compare prototype content with captured Wix content;
+5. create the old-to-new content map;
+6. identify reusable and problematic implementation patterns;
+7. produce a design-system input report; and
+8. propose the Phase 1 repository foundation.
+
+---
+
+## 14. Phase 0 exit criteria
+
+Phase 0 is complete when:
+
+- the named prototype pages and dependencies are preserved;
+- all useful Wix pages and URLs are captured;
+- the source-content folder contains the available material;
+- Cloudinary folders and publication metadata are inventoried;
+- missing images and permissions are recorded;
+- current organisational and contact facts are confirmed;
+- every legacy content item has a proposed disposition;
+- old URLs have proposed new destinations;
+- risks and unresolved questions have owners; and
+- the Trust approves moving into Phase 1.
+
+---
+
+## 15. Change log
+
+| Date | Change |
+|---|---|
+| 16 July 2026 | Initial repository, local-folder, prototype and public-source discovery recorded |
+
