@@ -49,7 +49,6 @@ Phase 0 is in progress. The two prototype HTML files have been preserved and aud
 
 ### Outstanding
 
-- Capture the existing Wix site page by page.
 - Inventory Cloudinary assets and metadata.
 - Confirm official contact, trustee and charity information.
 - Identify image permissions and safeguarding records.
@@ -236,7 +235,7 @@ Existing Wix URL:
 
 ### Current limitation
 
-The automated review was unable to retrieve the Wix site reliably during this audit. Laurie confirmed that it opens normally in a standard browser. It therefore needs to be captured manually, or its content supplied as an export, before it can be compared comprehensively with the prototypes.
+The Wix site was successfully inspected directly in the in-app browser on 16 July 2026. All five pages in its navigation were captured and classified. See `/docs/04-wix-content-audit.md`.
 
 The Wix site currently uses its `wixsite.com` address and has no custom domain pointing to it. The planned `darringtonvillagefield.org.uk` domain will be registered and connected as part of the new-site launch process, not the Wix preservation process.
 
@@ -542,7 +541,7 @@ As material is collected, add it to this register or a later structured inventor
 
 ### Laurie
 
-1. Capture the Wix navigation, page URLs and page text, or make the pages available for a browser-assisted capture.
+1. Answer the verification questions in `/docs/04-wix-content-audit.md`.
 2. Confirm the Trust's current contact details, charity details and trustee display preference.
 3. Record approximate Cloudinary asset counts by folder/year, or provide a safe Media Library export if available.
 4. Confirm whether existing images have captions, alternative text or publication tags.
@@ -582,3 +581,4 @@ Phase 0 is complete when:
 | 16 July 2026 | Initial repository, local-folder, prototype and public-source discovery recorded |
 | 16 July 2026 | Prototype files received, preserved and audited |
 | 16 July 2026 | Cloudinary cloud name and independent backup confirmed; no source-document backlog; Wix access and planned production domain confirmed |
+| 16 July 2026 | All Wix navigation pages captured and classified; content conflicts and verification questions documented |
