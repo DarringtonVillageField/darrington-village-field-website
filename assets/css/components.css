@@ -58,6 +58,8 @@
 .hero__content > * { max-width: 46rem; }
 .hero .eyebrow { color: var(--colour-highlight); }
 .hero .lead { color: rgb(255 255 255 / 0.9); }
+.hero--compact { min-height: clamp(25rem, 55vh, 36rem); }
+.hero--compact .hero__content { padding-block: var(--space-16); }
 
 .button {
   display: inline-flex;
@@ -220,6 +222,11 @@ details > div { padding-block-end: var(--space-4); }
 .location-prompt::after { content: ""; position: absolute; width: 18rem; height: 18rem; inset-block-end: -9rem; inset-inline-end: -6rem; border: 3rem solid rgb(255 255 255 / 0.06); border-radius: 50%; }
 .location-prompt > * { position: relative; z-index: 1; max-width: 45rem; }
 .location-prompt .eyebrow { color: var(--colour-highlight); }
+
+.practical-list { display: grid; margin: 0; gap: var(--space-4); }
+.practical-list div { padding: var(--space-5); border-inline-start: 4px solid var(--colour-brand); background: var(--colour-surface-soft); }
+.practical-list dt { color: var(--colour-brand-strong); font-weight: 800; }
+.practical-list dd { margin: var(--space-1) 0 0; }
 
 @media (max-width: 48rem) {
   .overlap-panel { margin-block-start: -2rem; }
