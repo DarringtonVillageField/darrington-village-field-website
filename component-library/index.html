@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reusable component library for the Darrington Village Field Trust website.">
+  <title>Component Library | Darrington Village Field Trust</title>
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/animations.css">
+  <link rel="stylesheet" href="../assets/css/print.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="module" src="../assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="site-header__inner container container--wide">
+      <a class="site-brand" href="../" aria-label="Darrington Village Field Trust home">
+        <img class="site-brand__mark" src="https://res.cloudinary.com/gst8uxqp/image/upload/v1783896441/Edwardian-Lady_mm7ytd.png" alt="" width="40" height="40">
+        <span class="site-brand__name">Darrington Village Field<small>Village Field Trust</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>Menu</button>
+      <nav class="site-navigation" id="primary-navigation" aria-label="Primary navigation" data-navigation>
+        <ul class="nav-list"><li><a href="#content">Content</a></li><li><a href="#media">Media</a></li><li><a href="#behaviour">Behaviour</a></li><li><a href="#states">States</a></li></ul>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumbs container container--wide" aria-label="Breadcrumb"><ol><li><a href="../">Project</a></li><li aria-current="page">Component library</li></ol></nav>
+
+  <main id="main-content">
+    <section class="section section--soft">
+      <div class="container container--narrow">
+        <p class="eyebrow">Blueprint Phase 3</p>
+        <h1>Core component library</h1>
+        <p class="lead">A working reference for the reusable content, media and behaviour patterns that will be assembled into the public website.</p>
+      </div>
+    </section>
+
+    <section class="section" id="content">
+      <div class="container">
+        <header class="section-heading"><p class="eyebrow">Content</p><h2>Storytelling and practical information</h2><hr class="section-heading__rule"></header>
+
+        <h3>Call to action</h3>
+        <aside class="callout reveal" data-reveal>
+          <div><p class="eyebrow">Make a difference locally</p><h2>Help keep the Village Field thriving</h2><p>Whether you can spare an hour at an event or support a future project, every contribution helps the Trust care for this community space.</p></div>
+          <div><a class="button button--primary" href="#content">Explore volunteering</a></div>
+        </aside>
+
+        <div class="grid" style="--grid-min:22rem;margin-block-start:var(--space-12)">
+          <div>
+            <h3>Volunteer quotation</h3>
+            <blockquote class="quote"><p>“It is the people pitching in together that make these village events so special.”</p><footer>Demonstration quotation — permission required before publication</footer></blockquote>
+          </div>
+          <div>
+            <h3>Statistics</h3>
+            <div class="statistics"><div class="statistic"><strong>3</strong><span>annual events</span></div><div class="statistic"><strong>1</strong><span>field for everyone</span></div></div>
+          </div>
+        </div>
+
+        <h3 style="margin-block-start:var(--space-12)">Timeline</h3>
+        <ol class="timeline container--narrow">
+          <li class="timeline__item"><p class="timeline__date">1977</p><h4>A village celebration</h4><p>A Silver Jubilee parade ended with a celebration on the Village Field.</p></li>
+          <li class="timeline__item"><p class="timeline__date">The following years</p><h4>Feast & Fayre begins</h4><p>The successful celebration inspired an annual event and the Edwardian Lady became its symbol.</p></li>
+          <li class="timeline__item"><p class="timeline__date">Today</p><h4>A field for the community</h4><p>The Trust continues to maintain the field and organise events with local volunteers.</p></li>
+        </ol>
+
+        <h3>Sponsor grid</h3>
+        <div class="sponsor-grid"><a class="sponsor" href="#content">Sponsor name</a><a class="sponsor" href="#content">Local supporter</a><a class="sponsor" href="#content">Community partner</a></div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="media">
+      <div class="container">
+        <header class="section-heading"><p class="eyebrow">Media</p><h2>Photography with accessible controls</h2><hr class="section-heading__rule"><p class="lead">There is no autoplay. Visitors decide when images change, and the underlying content remains available if JavaScript fails.</p></header>
+
+        <h3>Carousel</h3>
+        <div class="carousel" data-carousel data-carousel-autoplay="true" data-carousel-interval="6000" tabindex="0" aria-label="Village Field photographs">
+          <figure class="carousel__slide" data-carousel-slide><img src="https://res.cloudinary.com/gst8uxqp/image/upload/v1783864870/Village-Field-Panorama_v6utxz.jpg" alt="Panoramic view across Darrington Village Field" width="1600" height="900"><figcaption>The open field at the heart of the village.</figcaption></figure>
+          <figure class="carousel__slide" data-carousel-slide hidden><img src="https://res.cloudinary.com/gst8uxqp/image/upload/v1783864868/Playground-View_tdozjl.jpg" alt="Playground and open grass at Darrington Village Field" width="1600" height="900" loading="lazy"><figcaption>Space to play and enjoy the outdoors.</figcaption></figure>
+          <figure class="carousel__slide" data-carousel-slide hidden><img src="https://res.cloudinary.com/gst8uxqp/image/upload/v1784017248/Bonfire-Hero_q4ibgt.jpg" alt="Fireworks above the Village Field" width="1600" height="900" loading="lazy"><figcaption>Bonfire Night brings the community together.</figcaption></figure>
+          <div class="carousel__controls"><button class="carousel__button" type="button" data-carousel-previous aria-label="Previous image">← Previous</button><span data-carousel-status aria-live="polite">Image 1 of 3</span><button class="carousel__button" type="button" data-carousel-pause aria-pressed="false" aria-label="Pause slideshow">Pause</button><button class="carousel__button" type="button" data-carousel-next aria-label="Next image">Next →</button></div>
+        </div>
+
+        <h3 style="margin-block-start:var(--space-12)">Filterable gallery and lightbox</h3>
+        <div class="filter-bar" data-filter-group="demonstration-gallery" aria-label="Filter photographs"><button class="filter-button" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter-button" type="button" data-filter="field" aria-pressed="false">The Field</button><button class="filter-button" type="button" data-filter="events" aria-pressed="false">Events</button></div>
+        <p class="visually-hidden" data-filter-status aria-live="polite"></p>
+        <div class="gallery-grid" id="demonstration-gallery" data-lightbox-gallery>
+          <figure class="gallery-item" data-filter-item="field"><button type="button" data-lightbox-trigger data-lightbox-src="https://res.cloudinary.com/gst8uxqp/image/upload/c_limit,w_1600,q_auto,f_auto/v1783864870/Village-Field-Panorama_v6utxz.jpg" data-lightbox-caption="Panoramic view across the Village Field"><img src="https://res.cloudinary.com/gst8uxqp/image/upload/c_fill,w_700,h_525,q_auto,f_auto/v1783864870/Village-Field-Panorama_v6utxz.jpg" alt="Panoramic view across Darrington Village Field" width="700" height="525" loading="lazy"></button><figcaption>The Village Field</figcaption></figure>
+          <figure class="gallery-item" data-filter-item="field"><button type="button" data-lightbox-trigger data-lightbox-src="https://res.cloudinary.com/gst8uxqp/image/upload/c_limit,w_1600,q_auto,f_auto/v1783864868/Playground-View_tdozjl.jpg" data-lightbox-caption="The playground and surrounding green space"><img src="https://res.cloudinary.com/gst8uxqp/image/upload/c_fill,w_700,h_525,q_auto,f_auto/v1783864868/Playground-View_tdozjl.jpg" alt="Playground and open grass at Darrington Village Field" width="700" height="525" loading="lazy"></button><figcaption>The playground</figcaption></figure>
+          <figure class="gallery-item" data-filter-item="events"><button type="button" data-lightbox-trigger data-lightbox-src="https://res.cloudinary.com/gst8uxqp/image/upload/c_limit,w_1600,q_auto,f_auto/v1784017248/Bonfire-Hero_q4ibgt.jpg" data-lightbox-caption="Fireworks at Bonfire Night"><img src="https://res.cloudinary.com/gst8uxqp/image/upload/c_fill,w_700,h_525,q_auto,f_auto/v1784017248/Bonfire-Hero_q4ibgt.jpg" alt="Fireworks above the Village Field" width="700" height="525" loading="lazy"></button><figcaption>Bonfire Night</figcaption></figure>
+        </div>
+        <dialog class="lightbox" data-lightbox aria-label="Photograph viewer"><div class="lightbox__body"><div class="lightbox__top"><p class="lightbox__caption" data-lightbox-caption></p><button class="lightbox__button" type="button" data-lightbox-close aria-label="Close photograph viewer">Close</button></div><img class="lightbox__image" data-lightbox-image src="" alt="" width="1600" height="900"><div class="lightbox__controls"><button class="lightbox__button" type="button" data-lightbox-previous>← Previous</button><button class="lightbox__button" type="button" data-lightbox-next>Next →</button></div></div></dialog>
+      </div>
+    </section>
+
+    <section class="section" id="behaviour">
+      <div class="container">
+        <header class="section-heading"><p class="eyebrow">Behaviour</p><h2>Useful movement and live information</h2><hr class="section-heading__rule"></header>
+        <div class="countdown" data-countdown="2026-11-07T17:00:00+00:00" data-countdown-complete="Bonfire Night is under way."><p class="eyebrow">Bonfire Night · Saturday 7 November 2026</p><h3>Counting down to gates opening</h3><div class="countdown__output" data-countdown-output><p>Gates open at 5:00pm.</p></div></div>
+        <h3 style="margin-block-start:var(--space-12)">Frequently asked questions</h3>
+        <div class="container--narrow"><details><summary>Does the page still work without JavaScript?</summary><div><p>Yes. Essential content remains visible, gallery images remain in the page and the countdown retains its plain-language date.</p></div></details><details><summary>What happens when reduced motion is requested?</summary><div><p>Non-essential transitions and reveal effects are removed automatically.</p></div></details></div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="states">
+      <div class="container">
+        <header class="section-heading"><p class="eyebrow">Resilience</p><h2>Empty and error states</h2><hr class="section-heading__rule"></header>
+        <div class="grid"><div class="component-state"><h3>No photographs yet</h3><p>New photographs will appear here when an approved gallery is available.</p></div><div class="component-state" data-state="error"><h3>Photographs unavailable</h3><p>We could not load this gallery. Please try again later.</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="site-footer__grid container"><div><h2>Darrington Village Field Trust</h2><p>A registered charity maintaining and improving the Village Field for the community.</p></div><div><h2>Project</h2><ul><li><a href="../design-system/">Design system</a></li><li><a href="../docs/08-component-library.md">Component guide</a></li></ul></div><div><h2>Contact</h2><ul><li><a href="mailto:darringtonvillagefield@outlook.com">Email the Trust</a></li></ul></div></div><div class="site-footer__bottom container"><p>Registered charity 505756 · Component demonstration</p></div></footer>
+</body>
+</html>

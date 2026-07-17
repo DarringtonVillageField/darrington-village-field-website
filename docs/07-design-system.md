@@ -2,8 +2,8 @@
 
 ## Phase 1 reference — version 1.0
 
-**Status:** Implementation baseline  
-**Date:** 17 July 2026  
+**Status:** Approved by Laurie on 17 July 2026
+**Date:** 17 July 2026
 **Live reference:** [`design-system/index.html`](../design-system/index.html)
 
 ---
@@ -154,3 +154,7 @@ Before adding a component or token:
 5. Record a material architectural change in the decisions log.
 
 Phase 2 page development should use this system as its starting point. Findings from real pages may refine it, but changes must remain reusable and intentional.
+
+## Approval record
+
+Laurie reviewed the live design-system page on desktop and at narrowed viewport widths on 17 July 2026. The colours, typography, components, image arrangement and responsive navigation were approved without requested changes. The system may now be used as the baseline for the core component library and public pages.

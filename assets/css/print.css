@@ -1,5 +1,5 @@
 @media print {
-  .site-header, .site-footer, .notice-bar, .skip-link, .button { display: none !important; }
+  .site-header, .site-footer, .notice-bar, .skip-link, .button, .carousel__controls, .filter-bar, .lightbox { display: none !important; }
   body { background: #fff; color: #000; font: 11pt/1.45 Georgia, serif; }
   main, .section { padding: 0; }
   a { color: inherit; text-decoration: underline; }
