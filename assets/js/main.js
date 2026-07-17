@@ -5,6 +5,7 @@ import { initialiseCarousels } from './carousel.js';
 import { initialiseCountdowns } from './countdown.js';
 import { initialiseFilters } from './filters.js';
 import { initialiseLightboxes } from './lightbox.js';
+import { initialiseEventCards } from './events.js';
 
 document.documentElement.classList.add('js');
 
@@ -16,6 +17,7 @@ function initialise() {
   initialiseCountdowns();
   initialiseFilters();
   initialiseLightboxes();
+  initialiseEventCards();
 }
 
 if (document.readyState === 'loading') {

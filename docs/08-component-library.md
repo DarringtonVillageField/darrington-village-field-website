@@ -2,7 +2,7 @@
 
 ## Blueprint Phase 3 reference — version 1.0
 
-**Status:** Ready for review
+**Status:** Approved by Laurie on 17 July 2026
 **Date:** 17 July 2026
 **Working demonstration:** [`component-library/index.html`](../component-library/index.html)
 
@@ -160,3 +160,7 @@ Before a component is approved for public pages, confirm:
 ## Phase exit
 
 Phase 3 is complete when the demonstration has been reviewed on desktop and narrow screens, keyboard behaviour has been checked, the component documentation is approved and any requested refinements have been incorporated.
+
+## Approval record
+
+Laurie reviewed the component-library demonstration on 17 July 2026. The responsive layout, content patterns, gallery, lightbox, countdown and carousel were approved after two refinements: the countdown label was changed to gold and optional accessible carousel autoplay was added. Blueprint Phase 3 is approved for use in public-page development.
