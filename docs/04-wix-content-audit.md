@@ -147,6 +147,22 @@ Laurie confirmed on 17 July 2026 that the event took place on Saturday 20 June 2
 - **Make configurable:** programme and attractions, because they may change annually.
 - **Preserve separately:** Edwardian Lady history/branding story.
 
+### Edwardian Lady story recovered
+
+The complete story was recovered from the Wix hover panel on 17 July 2026:
+
+> Did you know that the Village Field has not always hosted the Feast and Fayre?
+>
+> Up to the mid-1970s, Darrington had a summer gala, which was held in the Vicarage garden, what is now part of Beech Crescent.
+>
+> In 1977, to commemorate the Silver Jubilee of Queen Elizabeth II, the village had a parade that went along Estcourt Road and ended with a celebration on the Village Field.
+>
+> All the volunteers dressed in Edwardian costumes and, with the event a roaring success, it was decided that Darrington should have a village celebration on the Field every year.
+>
+> And so, the Darrington Feast and Fayre was born, the Edwardian Lady symbolising how great things can come from humble beginnings and a little bit of community spirit.
+
+Capitalisation and apostrophe styling have been lightly normalised. The underlying historical facts should be checked against any surviving village records before being presented as a definitive formal history.
+
 ### Editorial corrections
 
 The existing copy contains small errors such as “show-case” and “of course, of kids races”. These should be corrected during rewriting.
@@ -199,6 +215,8 @@ The current organiser must confirm:
 - prize categories;
 - accessibility and suitability; and
 - current contact address.
+
+There is no permanent event-information owner. Laurie confirmed on 17 July 2026 that the Run is part of Feast & Fayre day and one volunteer normally takes responsibility for it each year. The website workflow must therefore require a named annual Run lead before publishing each year's details.
 
 Old race guides must not override current organiser instructions.
 
@@ -265,6 +283,8 @@ Laurie confirmed on 17 July 2026 that all three published email addresses are ac
 
 The Charity Commission also publishes telephone and postal contact information. The Trust must decide whether those should appear on the website or remain linked through the Commission record.
 
+Laurie confirmed on 17 July 2026 that telephone number `07825 676174` should not be published on the website at present. Review this decision when planning for the 2027 Feast & Fayre begins in January 2027.
+
 ---
 
 ## 9. Content missing from Wix
@@ -305,15 +325,13 @@ The new website needs material not present in the existing navigation:
 | Bonfire 2026 date | Confirmed: Saturday 7 November 2026 | Event data/page |
 | Contact emails | Confirmed actively monitored; retain | Contact/event pages |
 | Social profiles | Retain | Header/footer/contact |
-| Edwardian Lady story | Preserve and recover full text | Feast/History |
+| Edwardian Lady story | Recovered; preserve and verify historical facts | Feast/History |
 
 ---
 
-## 11. Remaining questions for the Trust
+## 11. Remaining Wix-content questions
 
-1. Who currently owns and approves Five Mile Run information?
-2. Should the published Charity Commission telephone number appear on the new website?
-3. Can the full Edwardian Lady story be recovered from Wix or another source?
+No blocking Wix-content questions remain. Annual event details will still require confirmation from the responsible volunteer before publication.
 
 ---
 
@@ -339,6 +357,7 @@ The Wix site is a historical/current-copy reference, not proof that operational 
 |---|---|
 | 16 July 2026 | Laurie confirmed Saturday 7 November 2026 as the correct Bonfire Night date and advised that Wix is not maintained as the current public source |
 | 17 July 2026 | Feast & Fayre confirmed as completed on 20 June 2026; Bonfire gates confirmed for 5:00pm; all three emails confirmed monitored; familiar trustee names approved |
+| 17 July 2026 | Five Mile Run annual-ownership model recorded; telephone omitted until January 2027 review; Edwardian Lady story recovered from Wix |
 
 ---
 

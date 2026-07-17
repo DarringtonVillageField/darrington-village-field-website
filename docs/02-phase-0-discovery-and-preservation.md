@@ -2,7 +2,7 @@
 
 ## Darrington Village Field Trust Website
 
-**Status:** In progress  
+**Status:** Complete with documented follow-up items
 **Started:** 16 July 2026  
 **Owner:** Darrington Village Field Trust  
 **Related document:** [Project Blueprint v1.0](01-project-blueprint.md)
@@ -29,7 +29,7 @@ No existing content should be treated as current merely because it appears on a 
 
 ## 2. Executive status
 
-Phase 0 is in progress. The two prototype HTML files have been preserved and audited. The remaining work centres on capturing the Wix content, inventorying Cloudinary, and confirming current organisational and event information.
+Phase 0 is complete. The prototypes have been preserved and audited, the Wix content captured, Cloudinary inventoried at folder level, and current organisational/event decisions recorded. Remaining image metadata and page-specific operational facts are controlled follow-up work rather than discovery blockers.
 
 ### Completed
 
@@ -53,14 +53,15 @@ Phase 0 is in progress. The two prototype HTML files have been preserved and aud
 - All three published Trust/event email addresses confirmed as actively monitored.
 - Familiar trustee names approved for public display.
 - Santa Special 2026 confirmed as date pending; holding-page direction approved.
+- Five Mile Run confirmed as an annually assigned volunteer responsibility rather than a permanent role.
+- Telephone number excluded from the website pending review in January 2027.
+- Full Edwardian Lady story recovered from Wix.
 
-### Outstanding
+### Controlled follow-up items
 
 - Complete Cloudinary publication-status, year-tag and metadata review.
-- Confirm official contact, trustee and charity information.
 - Identify image permissions and safeguarding records.
-- Create an old-to-new URL map.
-- Complete content disposition decisions: keep, rewrite, merge, archive or discard.
+- Confirm page-specific operational information during implementation.
 
 ---
 
@@ -548,10 +549,10 @@ As material is collected, add it to this register or a later structured inventor
 
 ### Laurie
 
-1. Answer the verification questions in `/docs/04-wix-content-audit.md`.
-2. Confirm the Trust's current contact details, charity details and trustee display preference.
-3. Record approximate Cloudinary asset counts by folder/year, or provide a safe Media Library export if available.
-4. Confirm whether existing images have captions, alternative text or publication tags.
+1. Participate in the Cloudinary tagging trial when the gallery component is ready.
+2. Confirm page-specific operational facts during implementation.
+3. Nominate the annual Five Mile Run lead before publishing each year's Run details.
+4. Review whether to publish the telephone number in January 2027.
 
 ### Codex
 
@@ -592,3 +593,4 @@ Phase 0 is complete when:
 | 16 July 2026 | Bonfire Night date confirmed as 7 November 2026; Wix classified as an outdated reference rather than the current public source |
 | 17 July 2026 | Cloudinary folder counts recorded; 69 distinct photographs and priority gaps identified |
 | 17 July 2026 | Key event, contact and trustee-display facts confirmed; Santa Special holding-page direction recorded |
+| 17 July 2026 | Final ownership/contact/history questions resolved; Phase 0 closed with controlled follow-up items |
