@@ -228,6 +228,15 @@ details > div { padding-block-end: var(--space-4); }
 .practical-list dt { color: var(--colour-brand-strong); font-weight: 800; }
 .practical-list dd { margin: var(--space-1) 0 0; }
 
+.person-card { display: grid; padding: var(--space-6); grid-template-columns: auto 1fr; gap: var(--space-4); align-items: center; border: 1px solid var(--colour-border); border-radius: var(--radius-medium); background: var(--colour-white); box-shadow: var(--shadow-small); }
+.person-card__mark { display: grid; width: 3.5rem; height: 3.5rem; place-items: center; border-radius: 50%; background: var(--colour-green-100); color: var(--colour-brand-strong); font-family: var(--font-display); font-size: var(--text-step-1); font-weight: 700; }
+.person-card h3, .person-card p { margin: 0; }
+.person-card p { color: var(--colour-text-muted); font-size: var(--text-step--1); }
+
+.contact-card { display: flex; min-height: 100%; padding: var(--space-6); flex-direction: column; border-block-start: 4px solid var(--colour-brand); border-radius: 0 0 var(--radius-medium) var(--radius-medium); background: var(--colour-white); box-shadow: var(--shadow-small); }
+.contact-card p:last-of-type { flex-grow: 1; }
+.contact-card__address { overflow-wrap: anywhere; font-weight: 700; }
+
 @media (max-width: 48rem) {
   .overlap-panel { margin-block-start: -2rem; }
   .image-panel { grid-template-columns: 1fr; }
