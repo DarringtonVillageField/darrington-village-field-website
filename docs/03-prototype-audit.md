@@ -263,7 +263,7 @@ The prototypes contain claims that must be verified before publication:
 - “Summer 2025 — Date TBC”.
 - “November 2025 — Date TBC”.
 - Bonfire Night date of Saturday 7 November 2026. **Confirmed by Laurie on 16 July 2026.**
-- Gates open at 5:00pm.
+- Gates open at 5:00pm. **Confirmed by Laurie on 17 July 2026.**
 - The field is open every day.
 - New play equipment was installed in 2024.
 - Facilities are suitable “for all ages from toddlers upwards”.

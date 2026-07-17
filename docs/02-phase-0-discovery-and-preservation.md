@@ -48,6 +48,11 @@ Phase 0 is in progress. The two prototype HTML files have been preserved and aud
 - Planned production domain confirmed as `darringtonvillagefield.org.uk`.
 - Bonfire Night date confirmed as Saturday 7 November 2026.
 - Initial Cloudinary folder inventory completed: 69 distinct photographs.
+- Feast & Fayre confirmed as completed on 20 June 2026.
+- Bonfire Night gates-opening time confirmed as 5:00pm.
+- All three published Trust/event email addresses confirmed as actively monitored.
+- Familiar trustee names approved for public display.
+- Santa Special 2026 confirmed as date pending; holding-page direction approved.
 
 ### Outstanding
 
@@ -586,3 +591,4 @@ Phase 0 is complete when:
 | 16 July 2026 | All Wix navigation pages captured and classified; content conflicts and verification questions documented |
 | 16 July 2026 | Bonfire Night date confirmed as 7 November 2026; Wix classified as an outdated reference rather than the current public source |
 | 17 July 2026 | Cloudinary folder counts recorded; 69 distinct photographs and priority gaps identified |
+| 17 July 2026 | Key event, contact and trustee-display facts confirmed; Santa Special holding-page direction recorded |

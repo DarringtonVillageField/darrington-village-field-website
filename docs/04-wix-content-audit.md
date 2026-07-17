@@ -93,6 +93,8 @@ The page is signed by Richard Hirst, Chair.
 
 The Charity Commission currently lists the formal names Richard Hirst, Peter Thomas Batty and Nicholas Charles Storr. The Trust should choose the approved public display form while keeping formal governance references accurate.
 
+Laurie confirmed on 17 July 2026 that the familiar names **Richard Hirst, Pete Batty and Nick Storr** may be used on the public website. Formal names may still be used where a governance document requires them.
+
 ### Recommendation
 
 Split this content across:
@@ -120,6 +122,8 @@ The clarification about ownership is valuable and should be retained prominently
 ### Current Wix heading
 
 > Darrington Feast and Fayre — 20th June 2026
+
+Laurie confirmed on 17 July 2026 that the event took place on Saturday 20 June 2026 and is now complete. The first-release website should present it as a completed event/retrospective rather than an upcoming event.
 
 ### Existing content
 
@@ -223,7 +227,7 @@ The prototype states:
 
 Laurie confirmed on 16 July 2026 that **Saturday 7 November 2026** is the correct Bonfire Night date. The Wix page is out of date because it is not being maintained as the current public source.
 
-The prototype's 5:00pm gates time and other operational arrangements remain to be confirmed separately.
+Laurie confirmed on 17 July 2026 that **5:00pm is the gates-opening time**. Other operational arrangements remain subject to event-owner confirmation.
 
 ### Disposition
 
@@ -257,6 +261,8 @@ The prototype's 5:00pm gates time and other operational arrangements remain to b
 
 Retain event-specific contacts only where they are actively monitored. Confirm ownership, access and expected response responsibility before launch.
 
+Laurie confirmed on 17 July 2026 that all three published email addresses are actively monitored.
+
 The Charity Commission also publishes telephone and postal contact information. The Trust must decide whether those should appear on the website or remain linked through the Commission record.
 
 ---
@@ -288,16 +294,16 @@ The new website needs material not present in the existing navigation:
 |---|---|---|
 | Trust ownership explanation | Keep, shorten and clarify | Home/About |
 | 1970s history | Verify and expand | About/History |
-| Trustee names | Verify display style | About/Governance |
+| Trustee names | Familiar names approved for public display | About/Governance |
 | 2024 playground investment | Verify figures; retain as impact story | Home/About/News |
 | Event-funded maintenance | Keep | Home/About/Get Involved |
-| Feast 2026 date | Treat as provisional until organiser confirmation | Event data/page |
+| Feast 2026 date | Confirmed completed event: Saturday 20 June 2026 | Event data/page |
 | Feast activities | Configurable annual programme | Feast & Fayre |
 | Five Mile Run route summary | Keep, verify | Five Mile Run |
 | Five Mile Run rules | Reconfirm for 2026 | Five Mile Run |
 | Bonfire 2025 retrospective | Keep for history/gallery context | Bonfire Night |
 | Bonfire 2026 date | Confirmed: Saturday 7 November 2026 | Event data/page |
-| Contact emails | Verify monitoring and retain | Contact/event pages |
+| Contact emails | Confirmed actively monitored; retain | Contact/event pages |
 | Social profiles | Retain | Header/footer/contact |
 | Edwardian Lady story | Preserve and recover full text | Feast/History |
 
@@ -305,14 +311,9 @@ The new website needs material not present in the existing navigation:
 
 ## 11. Remaining questions for the Trust
 
-1. Is Saturday 20 June 2026 formally confirmed for Feast & Fayre?
-2. Is the prototype's 5:00pm gates-opening time formally confirmed for Bonfire Night?
-3. Who currently owns and approves Five Mile Run information?
-4. Are the three published event email addresses all actively monitored?
-5. Should trustees be shown by familiar names or formal registered names?
-6. Should the published Charity Commission telephone number appear on the new website?
-7. Can the full Edwardian Lady story be recovered from Wix or another source?
-8. What 2026 information is available for Santa Special?
+1. Who currently owns and approves Five Mile Run information?
+2. Should the published Charity Commission telephone number appear on the new website?
+3. Can the full Edwardian Lady story be recovered from Wix or another source?
 
 ---
 
@@ -337,3 +338,27 @@ The Wix site is a historical/current-copy reference, not proof that operational 
 | Date | Confirmation |
 |---|---|
 | 16 July 2026 | Laurie confirmed Saturday 7 November 2026 as the correct Bonfire Night date and advised that Wix is not maintained as the current public source |
+| 17 July 2026 | Feast & Fayre confirmed as completed on 20 June 2026; Bonfire gates confirmed for 5:00pm; all three emails confirmed monitored; familiar trustee names approved |
+
+---
+
+## 13. Santa Special holding content
+
+No date or operational information is confirmed for Santa Special 2026.
+
+Approved content direction supplied by Laurie:
+
+> After our highly successful and enjoyable Santa Special in 2025, we are arranging a date with Santa for his 2026 visit in December — further updates coming soon.
+
+Recommended polished website version:
+
+> **Santa is planning his return to Darrington!** After a highly successful and enjoyable Santa Special in 2025, we're arranging a date with Santa for his December 2026 visit. Further details will be announced soon.
+
+Page rules while the date is pending:
+
+- display `Date to be confirmed` prominently;
+- do not show a countdown;
+- do not imply that booking is open;
+- provide the main Trust contact/social channels for updates;
+- use an accessible seasonal visual treatment that does not depend on event photography; and
+- replace the holding copy as soon as the event organiser confirms arrangements.
