@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "siteName": "Darrington Village Field",
+  "organisationName": "Darrington Village Field Trust",
+  "canonicalBaseUrl": "https://darringtonvillagefield.org.uk",
+  "timezone": "Europe/London",
+  "cloudinary": {
+    "cloudName": "gst8uxqp"
+  },
+  "charity": {
+    "registrationNumber": "505756"
+  },
+  "contact": {
+    "email": "darringtonvillagefield@outlook.com",
+    "telephonePublished": false
+  },
+  "social": [
+    {
+      "service": "Facebook",
+      "url": "https://www.facebook.com/darringtonvillagefield"
+    },
+    {
+      "service": "Instagram",
+      "url": "https://www.instagram.com/darringtonvillagefieldtrust"
+    }
+  ]
+}

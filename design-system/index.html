@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Darrington Village Field website design-system demonstration.">
+  <title>Design System | Darrington Village Field Trust</title>
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/animations.css">
+  <link rel="stylesheet" href="../assets/css/print.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="module" src="../assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner container container--wide">
+      <a class="site-brand" href="../" aria-label="Darrington Village Field Trust home">
+        <img class="site-brand__mark" src="https://res.cloudinary.com/gst8uxqp/image/upload/v1783896441/Edwardian-Lady_mm7ytd.png" alt="" width="40" height="40">
+        <span class="site-brand__name">Darrington Village Field<small>Village Field Trust</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>Menu</button>
+      <nav class="site-navigation" id="primary-navigation" aria-label="Primary navigation" data-navigation>
+        <ul class="nav-list">
+          <li><a href="#foundations">Foundations</a></li>
+          <li><a href="#components">Components</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#accessibility">Accessibility</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="notice-bar" hidden>
+    <div class="notice-bar__inner container" data-notice></div>
+  </div>
+
+  <nav class="demo-nav" aria-label="Design-system sections">
+    <ul class="container container--wide">
+      <li><a href="#foundations">Foundations</a></li>
+      <li><a href="#typography">Typography</a></li>
+      <li><a href="#components">Components</a></li>
+      <li><a href="#events">Event themes</a></li>
+      <li><a href="#accessibility">Accessibility</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero__image" src="https://res.cloudinary.com/gst8uxqp/image/upload/v1783864870/Village-Field-Panorama_v6utxz.jpg" alt="Darrington Village Field on a bright spring day" width="1600" height="900">
+      <div class="hero__content container container--wide">
+        <p class="eyebrow">Phase 1 demonstration</p>
+        <h1 id="hero-title">A welcoming system for every Field story</h1>
+        <p class="lead">This page demonstrates the shared visual language, accessible components and event themes that will power the new Darrington Village Field website.</p>
+        <div class="cluster">
+          <a class="button button--primary" href="#components">Explore components</a>
+          <a class="button button--outline" href="#events">Compare event themes</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="foundations">
+      <div class="container">
+        <header class="section-heading reveal" data-reveal>
+          <p class="eyebrow">Foundations</p>
+          <h2>Colours drawn from the Field</h2>
+          <hr class="section-heading__rule">
+          <p class="lead">Green anchors the Trust identity, gold creates warmth and emphasis, while cream and charcoal keep longer content calm and readable.</p>
+        </header>
+        <div class="grid" style="--grid-min: 12rem">
+          <div class="colour-swatch reveal" data-reveal><div class="colour-swatch__colour" style="--swatch:#357a2d"></div><div class="colour-swatch__label"><strong>Trust green</strong><code>#357A2D</code></div></div>
+          <div class="colour-swatch reveal" data-reveal><div class="colour-swatch__colour" style="--swatch:#1e5c17"></div><div class="colour-swatch__label"><strong>Deep green</strong><code>#1E5C17</code></div></div>
+          <div class="colour-swatch reveal" data-reveal><div class="colour-swatch__colour" style="--swatch:#f5c200"></div><div class="colour-swatch__label"><strong>Field gold</strong><code>#F5C200</code></div></div>
+          <div class="colour-swatch reveal" data-reveal><div class="colour-swatch__colour" style="--swatch:#d42b2b"></div><div class="colour-swatch__label"><strong>Event red</strong><code>#D42B2B</code></div></div>
+          <div class="colour-swatch reveal" data-reveal><div class="colour-swatch__colour" style="--swatch:#faf6ed"></div><div class="colour-swatch__label"><strong>Warm cream</strong><code>#FAF6ED</code></div></div>
+          <div class="colour-swatch reveal" data-reveal><div class="colour-swatch__colour" style="--swatch:#252b28"></div><div class="colour-swatch__label"><strong>Charcoal</strong><code>#252B28</code></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="typography">
+      <div class="container container--narrow">
+        <header class="section-heading">
+          <p class="eyebrow">Typography</p>
+          <h2>Editorial warmth, practical clarity</h2>
+          <hr class="section-heading__rule">
+        </header>
+        <div class="type-sample"><p class="type-sample__label">Display / heading one</p><h1>Your Village Field. Your Community.</h1></div>
+        <div class="type-sample"><p class="type-sample__label">Heading two</p><h2>What's on at the Field</h2></div>
+        <div class="type-sample"><p class="type-sample__label">Heading three</p><h3>A night to remember</h3></div>
+        <div class="type-sample"><p class="type-sample__label">Lead paragraph</p><p class="lead">A cherished green space at the heart of Darrington—play, events, fresh air and community spirit, all year round.</p></div>
+        <div class="type-sample"><p class="type-sample__label">Body text</p><p>The Village Field exists for the benefit of the whole community. Clear body text and comfortable line spacing make practical details easy to read on phones as well as larger screens.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="components">
+      <div class="container">
+        <header class="section-heading reveal" data-reveal>
+          <p class="eyebrow">Components</p>
+          <h2>Reusable building blocks</h2>
+          <hr class="section-heading__rule">
+          <p class="lead">The same components will be assembled across pages, keeping behaviour and maintenance consistent.</p>
+        </header>
+
+        <h3>Buttons and status</h3>
+        <div class="cluster" style="margin-block-end:var(--space-12)">
+          <a class="button button--primary" href="#components">Primary action</a>
+          <a class="button button--secondary" href="#components">Secondary action</a>
+          <a class="button button--outline" href="#components">Quiet action</a>
+          <span class="status-pill">Scheduled</span>
+          <span class="status-pill status-pill--pending">Date pending</span>
+          <span class="status-pill status-pill--complete">Completed</span>
+        </div>
+
+        <h3>Event cards</h3>
+        <div class="grid" style="--grid-min: 18rem; margin-block-end:var(--space-16)">
+          <article class="card card--interactive event-card reveal" data-reveal>
+            <img class="card__image" src="https://res.cloudinary.com/gst8uxqp/image/upload/v1783864868/Playground-View_tdozjl.jpg" alt="Playground and open space at Darrington Village Field" width="900" height="560" loading="lazy">
+            <span class="event-card__status">Completed</span>
+            <div class="card__body"><p class="card__meta"><time datetime="2026-06-20">20 June 2026</time></p><h4 class="card__title">Feast & Fayre</h4><p>Our annual village celebration, bringing together local talent, family activities, food and fundraising.</p><a href="#events">View event story</a></div>
+          </article>
+          <article class="card card--interactive event-card reveal" data-reveal>
+            <img class="card__image" src="https://res.cloudinary.com/gst8uxqp/image/upload/v1784017248/Bonfire-Hero_q4ibgt.jpg" alt="Fireworks over Darrington Village Field" width="900" height="560" loading="lazy">
+            <span class="event-card__status">Upcoming</span>
+            <div class="card__body"><p class="card__meta"><time datetime="2026-11-07T17:00:00Z">7 November 2026 · 5pm</time></p><h4 class="card__title">Bonfire & Fireworks Night</h4><p>A community bonfire and professional display that lights up the Darrington sky.</p><a href="#events">View event details</a></div>
+          </article>
+          <article class="card card--interactive event-card reveal" data-reveal>
+            <div class="card__image" style="background:linear-gradient(145deg,#17314a,#b3282d);display:grid;place-items:center;color:white;font-family:var(--font-display);font-size:2rem">Santa Special</div>
+            <span class="event-card__status">Date pending</span>
+            <div class="card__body"><p class="card__meta">December 2026</p><h4 class="card__title">Santa Special</h4><p>Santa is planning his return to Darrington. Further details will be announced soon.</p><a href="#events">Read the latest update</a></div>
+          </article>
+        </div>
+
+        <h3>Quick facts</h3>
+        <dl class="quick-facts">
+          <div><dt>Date</dt><dd>Saturday 7 November</dd></div>
+          <div><dt>Gates open</dt><dd>5:00pm</dd></div>
+          <div><dt>Location</dt><dd>Village Field</dd></div>
+          <div><dt>Entry</dt><dd>Details to follow</dd></div>
+        </dl>
+
+        <div class="grid" style="--grid-min:15rem;margin-block-start:var(--space-12)">
+          <article class="feature"><div class="feature__icon" aria-hidden="true">01</div><h4 class="feature__title">Children's play area</h4><p>Clear feature components introduce facilities without overwhelming visitors with text.</p></article>
+          <article class="feature"><div class="feature__icon" aria-hidden="true">02</div><h4 class="feature__title">Open green space</h4><p>Photography and concise descriptions will help visitors understand what the Field offers.</p></article>
+          <article class="feature"><div class="feature__icon" aria-hidden="true">03</div><h4 class="feature__title">Community events</h4><p>Event information remains prominent, current and easy for volunteers to maintain.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="events">
+      <div class="container">
+        <header class="section-heading"><p class="eyebrow">Event themes</p><h2>Distinctive, but recognisably Darrington</h2><hr class="section-heading__rule"><p class="lead">Event pages override a handful of colour roles while retaining the same components, typography and accessibility behaviour.</p></header>
+        <div class="grid" style="--grid-min: 25rem">
+          <article class="event-theme" data-event="bonfire-night" style="--event-surface:#0d0d0d;--event-surface-alt:#1a1a1a;--event-text:#fff;--event-accent:#d42b2b;--event-highlight:#f5c200"><div class="event-theme__content"><p class="eyebrow">Bonfire Night</p><h3>Fire, light and community</h3><p>Deep night surfaces and red accents give Bonfire its atmosphere without changing how the page works.</p><a class="button button--secondary" href="#events">Event details</a></div></article>
+          <article class="event-theme" data-event="santa-special" style="--event-surface:#f8fbff;--event-surface-alt:#e7f0f7;--event-text:#17314a;--event-accent:#b3282d;--event-highlight:#d9a441"><div class="event-theme__content"><p class="eyebrow">Santa Special</p><h3>Warm winter anticipation</h3><p>A calm seasonal palette gives the holding page character even before suitable event photography is available.</p><a class="button button--secondary" href="#events">Latest update</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="accessibility">
+      <div class="container container--narrow">
+        <header class="section-heading"><p class="eyebrow">Accessibility</p><h2>Designed in, not added later</h2><hr class="section-heading__rule"></header>
+        <details><summary>Keyboard and focus</summary><div><p>Navigation, buttons and links use native controls with strong visible focus. The mobile menu closes with Escape and returns focus to its control.</p></div></details>
+        <details><summary>Motion</summary><div><p>Content remains visible if JavaScript fails. Reduced-motion preferences remove scrolling and entrance effects.</p></div></details>
+        <details><summary>Content and images</summary><div><p>Heading levels follow the document structure. Informative photographs require meaningful alternative text; decorative images use empty alternatives.</p></div></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__grid container">
+      <div><h2>Darrington Village Field Trust</h2><p>A registered charity maintaining and improving the Village Field for the benefit of the community.</p></div>
+      <div><h2>Project</h2><ul><li><a href="../docs/01-project-blueprint.md">Project Blueprint</a></li><li><a href="../docs/07-design-system.md">Design-system guide</a></li></ul></div>
+      <div><h2>Contact</h2><ul><li><a href="mailto:darringtonvillagefield@outlook.com">Email the Trust</a></li><li><a href="https://www.facebook.com/darringtonvillagefield">Facebook</a></li><li><a href="https://www.instagram.com/darringtonvillagefieldtrust">Instagram</a></li></ul></div>
+    </div>
+    <div class="site-footer__bottom container"><p>Registered charity 505756 · Design-system demonstration</p></div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "notices": [
+    {
+      "id": "santa-2026-date-pending",
+      "status": "draft",
+      "priority": "normal",
+      "message": "Santa Special 2026 — date to be confirmed.",
+      "linkText": "See the latest information",
+      "linkUrl": "/events/santa-special/",
+      "startsAt": null,
+      "endsAt": null
+    }
+  ]
+}

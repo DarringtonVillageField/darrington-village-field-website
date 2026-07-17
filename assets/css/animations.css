@@ -1,0 +1,10 @@
+.reveal { opacity: 1; transform: none; }
+.js .reveal { opacity: 0; transform: translateY(1rem); transition: opacity var(--duration-slow) var(--ease-standard), transform var(--duration-slow) var(--ease-standard); }
+.js .reveal.is-visible { opacity: 1; transform: translateY(0); }
+.hero__image { animation: hero-settle 16s var(--ease-standard) both; }
+@keyframes hero-settle { from { transform: scale(1.035); } to { transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  .js .reveal { opacity: 1; transform: none; }
+}

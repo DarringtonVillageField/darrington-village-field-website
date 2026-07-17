@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "cloudName": "gst8uxqp",
+  "galleries": [
+    {
+      "id": "bonfire-night",
+      "title": "Bonfire Night",
+      "tag": "gallery-bonfire-night",
+      "pageSize": 12,
+      "enabled": false
+    },
+    {
+      "id": "feast-fayre",
+      "title": "Feast & Fayre",
+      "tag": "gallery-feast-fayre",
+      "pageSize": 18,
+      "enabled": false
+    },
+    {
+      "id": "field",
+      "title": "The Field",
+      "tag": "gallery-field",
+      "pageSize": 12,
+      "enabled": false
+    }
+  ]
+}

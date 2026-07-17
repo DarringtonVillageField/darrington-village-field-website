@@ -1,0 +1,8 @@
+@media print {
+  .site-header, .site-footer, .notice-bar, .skip-link, .button { display: none !important; }
+  body { background: #fff; color: #000; font: 11pt/1.45 Georgia, serif; }
+  main, .section { padding: 0; }
+  a { color: inherit; text-decoration: underline; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 9pt; }
+  img { max-height: 18cm; page-break-inside: avoid; }
+}
