@@ -170,6 +170,10 @@ details > div { padding-block-end: var(--space-4); }
 .carousel__slide { margin: 0; }
 .carousel__slide[hidden] { display: none; }
 .carousel__slide img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.carousel__portrait { display: grid; aspect-ratio: 16 / 9; overflow: hidden; background: var(--colour-charcoal-900); }
+.carousel__portrait-background, .carousel__portrait-image { width: 100% !important; height: 100% !important; grid-area: 1 / 1; aspect-ratio: auto !important; }
+.carousel__portrait-background { object-fit: cover !important; filter: blur(24px); transform: scale(1.1); opacity: 0.78; }
+.carousel__portrait-image { z-index: 1; object-fit: contain !important; }
 .carousel__slide figcaption { padding: var(--space-4) var(--space-5); }
 .carousel__controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; padding: var(--space-3) var(--space-4); gap: var(--space-3); }
 .carousel__button { min-width: 2.75rem; min-height: 2.75rem; border: 1px solid rgb(255 255 255 / 0.45); border-radius: var(--radius-small); background: transparent; color: var(--colour-white); font-weight: 700; }
