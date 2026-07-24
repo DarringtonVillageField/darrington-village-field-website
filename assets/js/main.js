@@ -5,8 +5,8 @@ import { initialiseCarousels } from './carousel.js';
 import { initialiseCountdowns } from './countdown.js';
 import { initialiseFilters } from './filters.js';
 import { initialiseLightboxes } from './lightbox.js';
-import { initialiseEventCards } from './events.js';
-import { initialiseCloudinaryGalleries } from './cloudinary-gallery.js';
+import { initialiseEventContent } from './events.js?v=20260724-phase6b';
+import { initialiseCloudinaryGalleries } from './cloudinary-gallery.js?v=20260724-phase6b';
 
 document.documentElement.classList.add('js');
 
@@ -15,10 +15,9 @@ function initialise() {
   initialiseReveals();
   initialiseNotice();
   initialiseCarousels();
-  initialiseCountdowns();
   initialiseFilters();
   initialiseLightboxes();
-  initialiseEventCards();
+  initialiseEventContent().finally(initialiseCountdowns);
   initialiseCloudinaryGalleries();
 }
 

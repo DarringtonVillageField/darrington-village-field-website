@@ -386,9 +386,9 @@ The file:
 assets/data/events.json
 ```
 
-controls the enhanced name, status, date, summary and link shown in homepage event cards.
+controls the enhanced name, status, date, summary and link shown in homepage and Events-page cards. It also supplies shared event-date references and the Bonfire countdown target.
 
-Changing this file does **not** automatically rewrite detailed event-page paragraphs, quick facts or hard-coded countdown dates. Those must be reviewed separately so the website cannot show conflicting information.
+Changing this file does **not** automatically rewrite detailed event-page paragraphs, page titles, search descriptions or FAQ answers. Those must be reviewed separately so the website cannot show conflicting information.
 
 ### Site-wide notice bar
 

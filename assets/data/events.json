@@ -5,48 +5,78 @@
       "id": "feast-fayre-2026",
       "slug": "feast-fayre",
       "name": "Darrington Feast & Fayre",
+      "shortName": "Feast & Fayre",
       "status": "completed",
       "start": "2026-06-20",
       "timezone": "Europe/London",
       "summary": "Our annual village celebration and fundraiser on the Village Field.",
       "pageUrl": "/events/feast-fayre/",
       "contactEmail": "feastandfayre@gmail.com",
-      "lastReviewed": "2026-07-22"
+      "lastReviewed": "2026-07-24"
     },
     {
       "id": "five-mile-run-2026",
       "slug": "five-mile-run",
       "name": "Darrington Five Mile Run",
+      "shortName": "Darrington Five Mile Run",
       "status": "completed",
       "start": "2026-06-20",
       "timezone": "Europe/London",
       "summary": "The village road run held as part of Feast & Fayre day.",
       "pageUrl": "/events/five-mile-run/",
       "contactEmail": "darringtonvillagefield@outlook.com",
-      "lastReviewed": "2026-07-22"
+      "lastReviewed": "2026-07-24"
     },
     {
       "id": "bonfire-night-2026",
       "slug": "bonfire-night",
       "name": "Bonfire & Fireworks Night",
+      "shortName": "Bonfire & Fireworks",
       "status": "scheduled",
       "start": "2026-11-07T17:00:00+00:00",
       "timezone": "Europe/London",
       "summary": "A community bonfire and professional fireworks display on the Village Field.",
       "pageUrl": "/events/bonfire-night/",
-      "lastReviewed": "2026-07-22"
+      "lastReviewed": "2026-07-24"
     },
     {
       "id": "santa-special-2026",
       "slug": "santa-special",
       "name": "Santa Special",
+      "shortName": "Santa Special",
       "status": "date-pending",
       "start": null,
       "displayDate": "December 2026 · date to be confirmed",
       "timezone": "Europe/London",
       "summary": "Santa is planning his return to Darrington in December 2026. Further details will be announced soon.",
       "pageUrl": "/events/santa-special/",
-      "lastReviewed": "2026-07-22"
+      "lastReviewed": "2026-07-24"
+    },
+    {
+      "id": "feast-fayre-2027",
+      "slug": "feast-fayre",
+      "name": "Darrington Feast & Fayre",
+      "shortName": "Feast & Fayre",
+      "status": "scheduled",
+      "start": "2027-06-19",
+      "timezone": "Europe/London",
+      "summary": "Darrington’s traditional summer celebration on the Village Field.",
+      "pageUrl": "/events/feast-fayre/",
+      "contactEmail": "feastandfayre@gmail.com",
+      "lastReviewed": "2026-07-24"
+    },
+    {
+      "id": "five-mile-run-2027",
+      "slug": "five-mile-run",
+      "name": "Darrington Five Mile Run",
+      "shortName": "Darrington Five Mile Run",
+      "status": "scheduled",
+      "start": "2027-06-19",
+      "timezone": "Europe/London",
+      "summary": "The village road run held as part of Feast & Fayre day.",
+      "pageUrl": "/events/five-mile-run/",
+      "contactEmail": "darringtonvillagefield@outlook.com",
+      "lastReviewed": "2026-07-24"
     }
   ]
 }

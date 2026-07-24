@@ -142,7 +142,7 @@ async function initialiseGallery(component, settings, configuredGallery) {
   const enabled = settings.galleries.filter((item) => item.enabled);
   const available = configuredGallery ? [configuredGallery] : enabled;
   let selectedCollection = configuredGallery?.id || 'all';
-  let selectedFilter = null;
+  let selectedFilter = configuredGallery ? (component.dataset.galleryFixedFilter || null) : null;
   let collectionButtons = [];
   let yearButtons = [];
   let orderedAssets = [];
@@ -224,6 +224,7 @@ async function initialiseGallery(component, settings, configuredGallery) {
 
   const rebuildYearFilters = () => {
     yearFilters.replaceChildren();
+    yearFilters.hidden = Boolean(component.dataset.galleryFixedFilter);
     const options = secondaryOptions();
     if (selectedFilter && !options.some((item) => item.value === selectedFilter)) selectedFilter = null;
     const gallery = activeGalleries()[0];
@@ -265,6 +266,7 @@ async function initialiseGallery(component, settings, configuredGallery) {
     collectionFilters.append(button);
     return { ...item, button };
   });
+  collectionFilters.hidden = Boolean(configuredGallery);
 
   rebuildYearFilters();
   await showSelection();

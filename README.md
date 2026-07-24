@@ -4,7 +4,7 @@ The source repository for the Trust's new static website. The project uses seman
 
 ## Current status
 
-The design system is approved. Blueprint Phase 3 now establishes the reusable core component library. Open [`component-library/index.html`](component-library/index.html) through a local web server to review content, media and behaviour components.
+Phases 0–5 are approved. Phase 6 has established the public Cloudinary Gallery, Gallery filters, content configuration and volunteer maintenance guidance. Shared event dates, homepage and Events-page cards, event cross-references and the Bonfire countdown are driven by `assets/data/events.json`, with readable HTML fallbacks.
 
 ## Repository map
 
@@ -24,9 +24,7 @@ From the repository folder, start any simple static web server. For example, mac
 python3 -m http.server 8000
 ```
 
-Then visit <http://localhost:8000/design-system/>. Python is not part of the published website.
-
-The current component milestone is available at <http://localhost:8000/component-library/>.
+Then visit <http://localhost:8000/>. Python is used only for local preview and is not part of the published website.
 
 ## Key documents
 
@@ -34,8 +32,10 @@ The current component milestone is available at <http://localhost:8000/component
 - [Design System](docs/07-design-system.md)
 - [Core Component Library](docs/08-component-library.md)
 - [Volunteer Website Guide](docs/09-volunteer-website-guide.md)
-- [Decisions and Assumptions](docs/02-decisions-and-assumptions.md)
-- [Content Inventory](docs/03-content-inventory.md)
-- [Cloudinary Inventory](docs/04-cloudinary-inventory.md)
+- [Phase 6 Completion Record](docs/10-phase-6-completion.md)
+- [Phase 0 Discovery and Preservation](docs/02-phase-0-discovery-and-preservation.md)
+- [Prototype Audit](docs/03-prototype-audit.md)
+- [Wix Content Audit](docs/04-wix-content-audit.md)
+- [Cloudinary Inventory](docs/05-cloudinary-inventory.md)
 
 The website's governing maintenance principle is: **a volunteer should not need to edit HTML to keep routine website content current.**
