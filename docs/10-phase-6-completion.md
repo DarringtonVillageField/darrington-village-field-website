@@ -2,7 +2,7 @@
 
 ## Completion Record
 
-**Status:** Ready for review  
+**Status:** Complete
 **Prepared:** 24 July 2026  
 **Project:** Darrington Village Field Trust website
 
