@@ -33,6 +33,7 @@ The current component milestone is available at <http://localhost:8000/component
 - [Project Blueprint](docs/01-project-blueprint.md)
 - [Design System](docs/07-design-system.md)
 - [Core Component Library](docs/08-component-library.md)
+- [Volunteer Website Guide](docs/09-volunteer-website-guide.md)
 - [Decisions and Assumptions](docs/02-decisions-and-assumptions.md)
 - [Content Inventory](docs/03-content-inventory.md)
 - [Cloudinary Inventory](docs/04-cloudinary-inventory.md)
