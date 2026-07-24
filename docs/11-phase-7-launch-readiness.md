@@ -67,10 +67,12 @@ Netlify automatic publishing remains locked during this work.
 
 ### Content sign-off
 
-- Confirm the final public policy for dogs on the Field.
+- Dogs are confirmed as allowed on the Field, including during events. Owners are reminded by signs to clean up after their dogs.
+- The main entrance is confirmed as Philips Lane, Darrington, WF8 3BH.
+- Bonfire Night is confirmed for Saturday 7 November 2026, with gates opening at 5pm.
 - Replace provisional Bonfire Night entry, ticket, detailed timing and safety information when confirmed.
 - Add the confirmed Santa Special date and arrangements when available.
-- Trustees should approve the Privacy Notice, Accessibility Statement and governance wording before launch.
+- Trustees still need to approve the Privacy Notice and Accessibility Statement before launch.
 
 ### Accessibility completion
 
@@ -86,7 +88,7 @@ Netlify automatic publishing remains locked during this work.
 - Every public page now includes the four core Open Graph properties: title, type, image and canonical URL.
 - Consistent site name, UK locale, image description and large-image social-card metadata have been added.
 - Informational pages use the approved Field panorama as their sharing image.
-- Event rich-result information is intentionally deferred. Google requires a unique page for each event, a confirmed start date and a detailed venue address. The current annual pages cover more than one year, Santa Special has no confirmed date, and the Field's exact entrance and mapping details remain under review.
+- Event rich-result information is intentionally deferred. Google requires a unique page for each event, a confirmed start date and a detailed venue address. The current annual pages cover more than one year and Santa Special has no confirmed date. The confirmed Field entrance can be used when future year-specific event pages are introduced.
 - Validate the organisation and breadcrumb markup after the public domain is connected.
 - Validate the sitemap after the public domain is connected.
 
@@ -112,6 +114,6 @@ Netlify automatic publishing remains locked during this work.
 
 ## 6. Current launch assessment
 
-The website is visually and structurally mature, and no major broken public page or internal link was found. It is not yet ready for unrestricted public launch because several event details, the dogs policy, final accessibility testing and trustee policy approval remain outstanding.
+The website is visually and structurally mature, and no major broken public page or internal link was found. It is not yet ready for unrestricted public launch because several event details, final accessibility testing and trustee policy approval remain outstanding.
 
 Those are controlled launch tasks rather than reasons to redesign the website.
