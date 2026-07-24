@@ -6,6 +6,7 @@ import { initialiseCountdowns } from './countdown.js';
 import { initialiseFilters } from './filters.js';
 import { initialiseLightboxes } from './lightbox.js';
 import { initialiseEventCards } from './events.js';
+import { initialiseCloudinaryGalleries } from './cloudinary-gallery.js';
 
 document.documentElement.classList.add('js');
 
@@ -18,6 +19,7 @@ function initialise() {
   initialiseFilters();
   initialiseLightboxes();
   initialiseEventCards();
+  initialiseCloudinaryGalleries();
 }
 
 if (document.readyState === 'loading') {

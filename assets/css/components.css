@@ -189,6 +189,7 @@ details > div { padding-block-end: var(--space-4); }
 
 .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: var(--space-4); }
 .gallery-grid [hidden] { display: none; }
+.gallery-load-more { margin-block-start: var(--space-8); text-align: center; }
 .gallery-item { margin: 0; }
 .gallery-item button { width: 100%; padding: 0; overflow: hidden; border: 0; border-radius: var(--radius-medium); background: var(--colour-surface-soft); text-align: start; }
 .gallery-item img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform var(--duration-normal) var(--ease-standard); }

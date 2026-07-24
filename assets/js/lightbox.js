@@ -1,8 +1,10 @@
 export function initialiseLightboxes() {
   document.querySelectorAll('[data-lightbox-gallery]').forEach((gallery) => {
+    if (gallery.dataset.lightboxReady === 'true') return;
     const dialog = gallery.parentElement.querySelector('[data-lightbox]');
     const triggers = [...gallery.querySelectorAll('[data-lightbox-trigger]')];
     if (!dialog || !triggers.length || typeof dialog.showModal !== 'function') return;
+    gallery.dataset.lightboxReady = 'true';
 
     const image = dialog.querySelector('[data-lightbox-image]');
     const caption = dialog.querySelector('[data-lightbox-caption]');

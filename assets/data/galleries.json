@@ -5,23 +5,97 @@
     {
       "id": "bonfire-night",
       "title": "Bonfire Night",
-      "tag": "gallery-bonfire-night",
+      "tag": "gallery-bonfire",
+      "years": [
+        {
+          "year": 2025,
+          "tag": "gallery-bonfire-2025"
+        }
+      ],
+      "sort": "newest-first",
       "pageSize": 12,
-      "enabled": false
+      "enabled": true,
+      "fallbackAlt": "A moment from Darrington Bonfire Night",
+      "fallbackCaption": "Bonfire Night"
     },
     {
       "id": "feast-fayre",
       "title": "Feast & Fayre",
-      "tag": "gallery-feast-fayre",
-      "pageSize": 18,
-      "enabled": false
+      "tag": "gallery-feastandfayre",
+      "years": [
+        {
+          "year": 2024,
+          "tag": "gallery-feastandfayre-2024"
+        },
+        {
+          "year": 2025,
+          "tag": "gallery-feastandfayre-2025"
+        },
+        {
+          "year": 2026,
+          "tag": "gallery-feastandfayre-2026"
+        }
+      ],
+      "sort": "newest-first",
+      "pageSize": 48,
+      "enabled": true,
+      "fallbackAlt": "A moment from Darrington Feast and Fayre",
+      "fallbackCaption": "Feast & Fayre"
     },
     {
       "id": "field",
       "title": "The Field",
-      "tag": "gallery-field",
+      "tag": "gallery-villagefield",
+      "filterLabel": "Area",
+      "filters": [
+        {
+          "label": "Open space",
+          "value": "open-space",
+          "tag": "gallery-villagefield-openspace"
+        },
+        {
+          "label": "Playground",
+          "value": "playground",
+          "tag": "gallery-villagefield-playground"
+        }
+      ],
+      "sort": "newest-first",
       "pageSize": 12,
-      "enabled": false
+      "enabled": true,
+      "fallbackAlt": "Darrington Village Field",
+      "fallbackCaption": "The Village Field"
+    },
+    {
+      "id": "five-mile-run",
+      "title": "Five Mile Run",
+      "tag": "gallery-5milerun",
+      "years": [
+        {
+          "year": 2026,
+          "tag": "gallery-5milerun-2026"
+        }
+      ],
+      "sort": "newest-first",
+      "pageSize": 18,
+      "enabled": true,
+      "fallbackAlt": "A moment from the Darrington Five Mile Run",
+      "fallbackCaption": "Darrington Five Mile Run"
+    },
+    {
+      "id": "santa-special",
+      "title": "Santa Special",
+      "tag": "gallery-santa-special",
+      "years": [
+        {
+          "year": 2025,
+          "tag": "gallery-santa-special-2025"
+        }
+      ],
+      "sort": "oldest-first",
+      "pageSize": 12,
+      "enabled": true,
+      "fallbackAlt": "A moment from Santa Special 2025",
+      "fallbackCaption": "Santa Special 2025"
     }
   ]
 }
