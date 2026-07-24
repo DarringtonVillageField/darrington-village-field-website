@@ -34,7 +34,7 @@ export async function initialiseEventCards() {
       const status = card.querySelector('[data-event-status]');
       const link = card.querySelector('[data-event-link]');
       if (name) name.textContent = event.name;
-      if (date) date.textContent = formatDate(event.start, event.timezone);
+      if (date) date.textContent = event.displayDate || formatDate(event.start, event.timezone);
       if (summary) summary.textContent = event.summary;
       if (status) status.textContent = statusLabels[event.status] || event.status;
       if (link) link.href = event.pageUrl;
