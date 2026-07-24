@@ -7,10 +7,12 @@ import { initialiseFilters } from './filters.js?v=20260724-phase7a';
 import { initialiseLightboxes } from './lightbox.js?v=20260724-phase7a';
 import { initialiseEventContent } from './events.js?v=20260724-phase7a';
 import { initialiseCloudinaryGalleries } from './cloudinary-gallery.js?v=20260724-phase7a';
+import { initialiseStructuredData } from './structured-data.js?v=20260724-phase7b';
 
 document.documentElement.classList.add('js');
 
 function initialise() {
+  initialiseStructuredData();
   initialiseNavigation();
   initialiseReveals();
   initialiseNotice();

@@ -81,8 +81,13 @@ Netlify automatic publishing remains locked during this work.
 
 ### Search and sharing
 
-- Add structured organisation and event information for search engines.
-- Decide whether the informational pages require dedicated social-sharing images.
+- Organisation and website structured information has been added to the homepage.
+- Breadcrumb structured information is generated from the visible breadcrumb trail on internal pages.
+- Every public page now includes the four core Open Graph properties: title, type, image and canonical URL.
+- Consistent site name, UK locale, image description and large-image social-card metadata have been added.
+- Informational pages use the approved Field panorama as their sharing image.
+- Event rich-result information is intentionally deferred. Google requires a unique page for each event, a confirmed start date and a detailed venue address. The current annual pages cover more than one year, Santa Special has no confirmed date, and the Field's exact entrance and mapping details remain under review.
+- Validate the organisation and breadcrumb markup after the public domain is connected.
 - Validate the sitemap after the public domain is connected.
 
 ### Security and hosting
