@@ -4,9 +4,9 @@ import { initialiseReveals } from './reveal.js?v=20260724-phase7a';
 import { initialiseCarousels } from './carousel.js?v=20260724-phase7a';
 import { initialiseCountdowns } from './countdown.js?v=20260724-phase7a';
 import { initialiseFilters } from './filters.js?v=20260724-phase7a';
-import { initialiseLightboxes } from './lightbox.js?v=20260725-phase7c';
+import { initialiseLightboxes } from './lightbox.js?v=20260725-phase7e';
 import { initialiseEventContent } from './events.js?v=20260724-phase7a';
-import { initialiseCloudinaryGalleries } from './cloudinary-gallery.js?v=20260725-phase7c';
+import { initialiseCloudinaryGalleries } from './cloudinary-gallery.js?v=20260725-phase7e';
 import { initialiseStructuredData } from './structured-data.js?v=20260724-phase7b';
 
 document.documentElement.classList.add('js');

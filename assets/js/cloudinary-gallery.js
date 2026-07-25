@@ -1,4 +1,4 @@
-import { initialiseLightboxes } from './lightbox.js?v=20260725-phase7c';
+import { initialiseLightboxes } from './lightbox.js?v=20260725-phase7e';
 
 function assetUrl(cloudName, asset, transformation) {
   const publicId = asset.public_id.split('/').map(encodeURIComponent).join('/');

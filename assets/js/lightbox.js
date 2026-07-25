@@ -8,6 +8,7 @@ export function initialiseLightboxes() {
 
     const image = dialog.querySelector('[data-lightbox-image]');
     const caption = dialog.querySelector('[data-lightbox-caption]');
+    const status = dialog.querySelector('[data-lightbox-status]');
     const close = dialog.querySelector('[data-lightbox-close]');
     const previous = dialog.querySelector('[data-lightbox-previous]');
     const next = dialog.querySelector('[data-lightbox-next]');
@@ -35,6 +36,7 @@ export function initialiseLightboxes() {
       image.src = previewSource;
       image.alt = triggerImage.alt;
       if (caption) caption.textContent = triggers[current].dataset.lightboxCaption || triggerImage.alt;
+      if (status) status.textContent = `Photograph ${current + 1} of ${triggers.length}: ${triggerImage.alt}`;
       dialog.setAttribute('aria-busy', 'true');
 
       if (fullSource === previewSource) {
@@ -58,8 +60,8 @@ export function initialiseLightboxes() {
 
     triggers.forEach((trigger, index) => trigger.addEventListener('click', () => {
       opener = trigger;
-      showImage(index);
       dialog.showModal();
+      showImage(index);
       close?.focus();
     }));
     close?.addEventListener('click', () => dialog.close());
