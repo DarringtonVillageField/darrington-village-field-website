@@ -13,14 +13,47 @@ export function initialiseLightboxes() {
     const next = dialog.querySelector('[data-lightbox-next]');
     let current = 0;
     let opener;
+    let imageRequest = 0;
+
+    const preloadImage = (index) => {
+      const trigger = triggers[(index + triggers.length) % triggers.length];
+      const source = trigger?.dataset.lightboxSrc;
+      if (!source) return;
+      const preload = new Image();
+      preload.src = source;
+    };
 
     const showImage = (index) => {
       current = (index + triggers.length) % triggers.length;
       const triggerImage = triggers[current].querySelector('img');
       if (!triggerImage || !image) return;
-      image.src = triggers[current].dataset.lightboxSrc || triggerImage.src;
+
+      const request = ++imageRequest;
+      const previewSource = triggerImage.currentSrc || triggerImage.src;
+      const fullSource = triggers[current].dataset.lightboxSrc || previewSource;
+
+      image.src = previewSource;
       image.alt = triggerImage.alt;
       if (caption) caption.textContent = triggers[current].dataset.lightboxCaption || triggerImage.alt;
+      dialog.setAttribute('aria-busy', 'true');
+
+      if (fullSource === previewSource) {
+        dialog.removeAttribute('aria-busy');
+        return;
+      }
+
+      const fullImage = new Image();
+      fullImage.onload = () => {
+        if (request !== imageRequest) return;
+        image.src = fullSource;
+        dialog.removeAttribute('aria-busy');
+        preloadImage(current - 1);
+        preloadImage(current + 1);
+      };
+      fullImage.onerror = () => {
+        if (request === imageRequest) dialog.removeAttribute('aria-busy');
+      };
+      fullImage.src = fullSource;
     };
 
     triggers.forEach((trigger, index) => trigger.addEventListener('click', () => {
@@ -45,6 +78,10 @@ export function initialiseLightboxes() {
         showImage(current + 1);
       }
     });
-    dialog.addEventListener('close', () => opener?.focus());
+    dialog.addEventListener('close', () => {
+      imageRequest += 1;
+      dialog.removeAttribute('aria-busy');
+      opener?.focus();
+    });
   });
 }

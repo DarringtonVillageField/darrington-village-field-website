@@ -1,4 +1,4 @@
-import { initialiseLightboxes } from './lightbox.js?v=20260724-phase7a';
+import { initialiseLightboxes } from './lightbox.js?v=20260725-phase7c';
 
 function assetUrl(cloudName, asset, transformation) {
   const publicId = asset.public_id.split('/').map(encodeURIComponent).join('/');
@@ -34,7 +34,7 @@ function renderAssets(component, cloudName, assets, limit) {
     button.dataset.lightboxCaption = metadata.caption;
 
     const image = document.createElement('img');
-    image.src = assetUrl(cloudName, asset, 'c_fill,w_700,h_525,g_auto,q_auto,f_auto');
+    image.src = assetUrl(cloudName, asset, 'c_limit,w_900,h_900,q_auto:eco,f_auto');
     image.alt = metadata.alt;
     image.width = 700;
     image.height = 525;
