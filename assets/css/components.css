@@ -235,7 +235,7 @@ details > div { padding-block-end: var(--space-4); }
 .practical-list { display: grid; margin: 0; gap: var(--space-4); }
 .practical-list div { padding: var(--space-5); border-inline-start: 4px solid var(--colour-brand); background: var(--colour-surface-soft); }
 .practical-list dt { color: var(--colour-brand-strong); font-weight: 800; }
-.practical-list dd { margin: var(--space-1) 0 0; }
+.practical-list dd { margin: var(--space-1) 0 0; overflow-wrap: anywhere; }
 
 .person-card { display: grid; padding: var(--space-6); grid-template-columns: auto 1fr; gap: var(--space-4); align-items: center; border: 1px solid var(--colour-border); border-radius: var(--radius-medium); background: var(--colour-white); box-shadow: var(--shadow-small); }
 .person-card__mark { display: grid; width: 3.5rem; height: 3.5rem; place-items: center; border-radius: 50%; background: var(--colour-green-100); color: var(--colour-brand-strong); font-family: var(--font-display); font-size: var(--text-step-1); font-weight: 700; }
