@@ -2,7 +2,7 @@
 
 ## Audit Record
 
-**Status:** In progress  
+**Status:** Local quality assurance complete; controlled preview and trustee approval pending
 **Started:** 24 July 2026  
 **Project:** Darrington Village Field Trust website
 
@@ -47,6 +47,11 @@ Netlify automatic publishing remains locked during this work.
 - Carousel pause controls and Gallery dialog focus handling reviewed.
 - Core colour combinations checked against the WCAG 2.2 Level AA contrast target.
 - Santa Special's pale-gold text on a light panel was below the target and has been replaced with a darker gold.
+- Keyboard-only operation checked in Safari, including the skip link, navigation, Bonfire carousel and Gallery viewer.
+- Responsive reflow checked across representative pages at a 320-pixel viewport, approximating 400% zoom on a 1280-pixel display.
+- A small Privacy-page overflow caused by its long email address was corrected and retested.
+- VoiceOver spot checks completed on the homepage and Gallery.
+- The Gallery now announces the selected photograph's position and descriptive alternative text when it opens and when Previous or Next is used.
 
 ---
 
@@ -60,6 +65,8 @@ Netlify automatic publishing remains locked during this work.
 - Added `sitemap.xml` for the intended public pages.
 - Added Netlify rules preventing internal documentation, archived prototypes, the design-system demonstration and the component-library demonstration from being served as public pages.
 - Marked the approved Phase 6 completion record as complete.
+- Improved Gallery loading so an orientation-preserving preview appears immediately and sharpens without changing shape.
+- Added screen-reader announcements to the Gallery viewers.
 
 ---
 
@@ -76,10 +83,9 @@ Netlify automatic publishing remains locked during this work.
 
 ### Accessibility completion
 
-- Complete manual checks at mobile width, 200% zoom and keyboard-only operation in Safari and another current browser.
-- Spot-check the completed site with VoiceOver on macOS or iPhone.
 - Review Cloudinary alternative text and captions as more photographs are uploaded.
-- Update the Accessibility Statement after the final checks, removing development wording and recording any remaining known limitations.
+- Ask the trustees to review the Accessibility Statement and the recorded test results.
+- Update the statement with its approval date and any remaining known limitations before public launch.
 
 ### Search and sharing
 
@@ -104,16 +110,16 @@ Netlify automatic publishing remains locked during this work.
 
 1. Complete reliability, accessibility and metadata fixes.
 2. Add structured search data and final sharing metadata.
-3. Conduct the manual responsive, zoom, keyboard and VoiceOver review.
-4. Obtain trustee approval for public content and policies.
-5. Register and configure `darringtonvillagefield.org.uk`.
-6. Create one controlled Netlify preview and run production-header checks.
+3. Conduct the manual responsive, zoom, keyboard and VoiceOver review. **Complete.**
+4. Create one controlled Netlify preview and run hosted checks.
+5. Obtain trustee approval for public content and policies.
+6. Register and configure `darringtonvillagefield.org.uk`.
 7. Publish the approved version and complete post-launch checks.
 
 ---
 
 ## 6. Current launch assessment
 
-The website is visually and structurally mature, and no major broken public page or internal link was found. It is not yet ready for unrestricted public launch because several event details, final accessibility testing and trustee policy approval remain outstanding.
+The website is visually and structurally mature, and no major broken public page or internal link was found. Local accessibility testing is complete. It is not yet ready for unrestricted public launch because the controlled hosted preview, trustee policy approval and some event details remain outstanding.
 
 Those are controlled launch tasks rather than reasons to redesign the website.
