@@ -2,7 +2,7 @@
 
 ## Phase 7 Release Checklist
 
-**Status:** Ready to create  
+**Status:** Hosted technical checks passed; manual browser review pending
 **Prepared:** 26 July 2026
 
 ---
@@ -60,10 +60,13 @@ Completed locally before creating the preview:
 5. Wait for Netlify to add the Deploy Preview link to the pull request.
 6. Record the preview URL and the commit identifier below.
 
-**Preview URL:**  
-**Commit:**  
-**Date created:**  
-**Checked by:**  
+**Preview URL:** <https://deploy-preview-1--darringtonvillagefield.netlify.app>
+
+**Commit:** `79b296e84b5626bd66537ee4b942d18eae360015`
+
+**Date created:** 26 July 2026
+
+**Checked by:** Codex technical checks; Laurie manual browser review pending
 
 Do not merge the pull request merely to create or approve the preview.
 
@@ -131,10 +134,28 @@ Record each problem with:
 - whether it blocks launch; and
 - the commit containing the correction.
 
-**Outcome:** Not yet tested  
-**Launch-blocking findings:**  
-**Non-blocking findings:**  
-**Retest completed:**  
+**Outcome:** Hosted technical checks passed; manual browser and device review pending
+
+**Launch-blocking findings:** None found during the hosted technical checks
+
+**Non-blocking findings:** Manual Safari, DuckDuckGo and mobile review remains to be recorded
+
+**Retest completed:** Not required during the initial technical checks
+
+Technical checks completed on 26 July 2026 confirmed:
+
+- all primary public pages returned the expected page title, heading and main content;
+- the Gallery loaded 24 of 67 photographs;
+- the Bonfire Night Gallery filter returned 8 of 8 matching photographs;
+- the Gallery viewer opened with its quick preview, changed photographs, announced their position and returned focus when closed;
+- event data loaded from `assets/data/events.json`;
+- the Bonfire countdown targeted Saturday 7 November 2026 at 5pm;
+- both Bonfire carousels loaded and their navigation and pause controls operated;
+- an incorrect address and all five protected project paths returned the custom 404 page;
+- the configured security headers were present on HTML, CSS, JavaScript and JSON responses;
+- CSS used the configured one-hour cache;
+- JavaScript and JSON required revalidation; and
+- no browser console errors or warnings were recorded.
 
 ---
 
