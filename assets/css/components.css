@@ -147,6 +147,7 @@ details > div { padding-block-end: var(--space-4); }
 .callout { display: grid; padding: clamp(var(--space-6), 5vw, var(--space-10)); gap: var(--space-5); border-radius: var(--radius-large); background: var(--colour-brand-strong); color: var(--colour-white); }
 .callout .eyebrow { color: var(--colour-highlight); }
 .callout h2, .callout p { max-width: 44rem; }
+.callout__single-line-heading { font-size: clamp(1.45rem, 2.5vw, 2.2rem); text-wrap: wrap; white-space: nowrap; }
 
 .quote { padding: clamp(var(--space-6), 5vw, var(--space-10)); border: 0; border-radius: var(--radius-large); background: var(--colour-surface-soft); color: var(--colour-text); }
 .quote p { font-size: var(--text-step-2); }
@@ -250,6 +251,7 @@ details > div { padding-block-end: var(--space-4); }
   .overlap-panel { margin-block-start: -2rem; }
   .image-panel { grid-template-columns: 1fr; }
   .image-panel__media { min-height: 18rem; }
+  .callout__single-line-heading { font-size: var(--text-step-3); white-space: normal; }
 }
 
 @media (max-width: 56rem) {
