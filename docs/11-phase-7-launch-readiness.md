@@ -2,7 +2,7 @@
 
 ## Audit Record
 
-**Status:** Local quality assurance complete; controlled preview and trustee approval pending
+**Status:** Controlled preview complete; trustee approval pending
 **Started:** 24 July 2026  
 **Project:** Darrington Village Field Trust website
 
@@ -101,7 +101,7 @@ Netlify automatic publishing remains locked during this work.
 ### Security and hosting
 
 - Test a Content Security Policy in report-only form before enforcing it.
-- Inspect a locked Netlify preview to confirm redirects, headers, the custom 404 page and deployed-file boundaries.
+- The locked Netlify preview was inspected and approved on 27 July 2026.
 - Keep automatic publishing locked until final trustee approval.
 
 ---
@@ -111,7 +111,7 @@ Netlify automatic publishing remains locked during this work.
 1. Complete reliability, accessibility and metadata fixes.
 2. Add structured search data and final sharing metadata.
 3. Conduct the manual responsive, zoom, keyboard and VoiceOver review. **Complete.**
-4. Create one controlled Netlify preview and run hosted checks.
+4. Create one controlled Netlify preview and run hosted checks. **Complete.**
 5. Obtain trustee approval for public content and policies.
 6. Register and configure `darringtonvillagefield.org.uk`.
 7. Publish the approved version and complete post-launch checks.
@@ -120,6 +120,12 @@ Netlify automatic publishing remains locked during this work.
 
 ## 6. Current launch assessment
 
-The website is visually and structurally mature, and no major broken public page or internal link was found. Local accessibility testing is complete. It is not yet ready for unrestricted public launch because the controlled hosted preview, trustee policy approval and some event details remain outstanding.
+The website is visually and structurally mature, and no major broken public page or
+internal link was found. Local accessibility testing and the controlled hosted preview
+are complete. The approved preview commit is
+`bda20b3790ae54d6c12acdf369aaf99bbe9b5b76`.
+
+It is not yet ready for unrestricted public launch because trustee policy approval,
+some event details and the production domain configuration remain outstanding.
 
 Those are controlled launch tasks rather than reasons to redesign the website.

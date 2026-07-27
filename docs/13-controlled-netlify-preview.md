@@ -2,7 +2,7 @@
 
 ## Phase 7 Release Checklist
 
-**Status:** Hosted technical checks passed; manual browser review pending
+**Status:** Complete
 **Prepared:** 26 July 2026
 
 ---
@@ -62,11 +62,13 @@ Completed locally before creating the preview:
 
 **Preview URL:** <https://deploy-preview-1--darringtonvillagefield.netlify.app>
 
-**Commit:** `79b296e84b5626bd66537ee4b942d18eae360015`
+**Approved commit:** `bda20b3790ae54d6c12acdf369aaf99bbe9b5b76`
 
 **Date created:** 26 July 2026
 
-**Checked by:** Codex technical checks; Laurie manual browser review pending
+**Completed:** 27 July 2026
+
+**Checked by:** Codex technical checks; Laurie Safari, DuckDuckGo and mobile review
 
 Do not merge the pull request merely to create or approve the preview.
 
@@ -134,13 +136,14 @@ Record each problem with:
 - whether it blocks launch; and
 - the commit containing the correction.
 
-**Outcome:** Hosted technical checks passed; manual browser and device review pending
+**Outcome:** Controlled preview passed
 
-**Launch-blocking findings:** None found during the hosted technical checks
+**Launch-blocking findings:** None
 
-**Non-blocking findings:** Manual Safari, DuckDuckGo and mobile review remains to be recorded
+**Non-blocking findings:** None identified
 
-**Retest completed:** Not required during the initial technical checks
+**Retest completed:** Yes. Final wording, card-layout and responsive callout refinements
+were checked against the approved preview commit on 27 July 2026.
 
 Technical checks completed on 26 July 2026 confirmed:
 
@@ -157,6 +160,14 @@ Technical checks completed on 26 July 2026 confirmed:
 - JavaScript and JSON required revalidation; and
 - no browser console errors or warnings were recorded.
 
+Manual review also confirmed:
+
+- Safari desktop review passed;
+- DuckDuckGo Browser desktop review passed;
+- mobile review passed;
+- navigation, responsive layouts, galleries and image viewing behaved as expected; and
+- no visible horizontal overflow or launch-blocking presentation issues were found.
+
 ---
 
 ## 7. Completion gate
@@ -170,4 +181,5 @@ The controlled preview is complete only when:
 - findings and retests have been recorded above; and
 - the preview commit is clearly identified for trustee review.
 
-Keep production publishing locked after the preview. Public launch remains a separate trustee-authorised action.
+All controlled-preview completion conditions have been met. Keep production publishing
+locked after the preview. Public launch remains a separate trustee-authorised action.
