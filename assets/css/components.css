@@ -101,9 +101,9 @@
 .quick-facts dt { color: rgb(255 255 255 / 0.75); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; }
 .quick-facts dd { margin: var(--space-1) 0 0; font-weight: 700; }
 
-.feature { padding: var(--space-6); border-radius: var(--radius-medium); background: var(--colour-surface-soft); }
-.feature__icon { display: grid; width: 2.75rem; height: 2.75rem; margin-block-end: var(--space-4); place-items: center; border-radius: var(--radius-round); background: var(--colour-green-100); color: var(--colour-brand-strong); font-weight: 800; }
-.feature__title { font-size: var(--text-step-1); }
+.feature { padding: var(--space-6); border-radius: var(--radius-medium); background: var(--colour-surface-soft); text-align: center; }
+.feature__icon { display: grid; width: 2.75rem; height: 2.75rem; margin-block: 0 var(--space-4); margin-inline: auto; place-items: center; border-radius: var(--radius-round); background: var(--colour-green-100); color: var(--colour-brand-strong); font-weight: 800; }
+.feature__title { margin-block-end: var(--space-4); font-size: var(--text-step-1); }
 
 .status-pill { display: inline-flex; align-items: center; gap: var(--space-2); padding: var(--space-1) var(--space-3); border-radius: var(--radius-round); background: var(--colour-green-100); color: var(--colour-brand-strong); font-size: var(--text-step--1); font-weight: 700; }
 .status-pill--pending { background: #fff2c6; color: #6d5100; }
@@ -147,6 +147,7 @@ details > div { padding-block-end: var(--space-4); }
 .callout { display: grid; padding: clamp(var(--space-6), 5vw, var(--space-10)); gap: var(--space-5); border-radius: var(--radius-large); background: var(--colour-brand-strong); color: var(--colour-white); }
 .callout .eyebrow { color: var(--colour-highlight); }
 .callout h2, .callout p { max-width: 44rem; }
+.callout__single-line-heading { font-size: clamp(1.45rem, 2.5vw, 2.2rem); text-wrap: wrap; white-space: nowrap; }
 
 .quote { padding: clamp(var(--space-6), 5vw, var(--space-10)); border: 0; border-radius: var(--radius-large); background: var(--colour-surface-soft); color: var(--colour-text); }
 .quote p { font-size: var(--text-step-2); }
@@ -250,6 +251,7 @@ details > div { padding-block-end: var(--space-4); }
   .overlap-panel { margin-block-start: -2rem; }
   .image-panel { grid-template-columns: 1fr; }
   .image-panel__media { min-height: 18rem; }
+  .callout__single-line-heading { font-size: var(--text-step-3); white-space: normal; }
 }
 
 @media (max-width: 56rem) {
